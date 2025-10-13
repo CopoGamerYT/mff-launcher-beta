@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+<channel>
+<title>MFF Launcher</title>
+<link>https://github.com/dscalzi/helioslauncher</link>
+<item>
+<title>Bienvenidos a MFF Launcher</title>
+<content:encoded>
+<![CDATA[ <h1>Esperemos que este launcher sea de su agrado!!</h1> <p>Cualquier problema o percanse que tengan por favor contactenos a nuestro <a href="https://discord.com/invite/B3wd7gEdjh">Discord</a> para ofrecerte una mejor experiencia</p> ]]>
+</content:encoded>
+<dc:creator>ImArihitzu_CVT</dc:creator>
+<pubDate>12 October 2025 20:59:00</pubDate>
+<slash:comments></slash:comments>
+</item>
+<item>
+<title>No se que poner aqui xd</title>
+<content:encoded>
+<![CDATA[ <p>Viva el sexo carajo xd</p>]]>
+</content:encoded>
+<dc:creator>ImArihitzu_CVT</dc:creator>
+<pubDate>12 October 2025 20:59:00</pubDate>
+</item>
+</channel>
+</rss>
