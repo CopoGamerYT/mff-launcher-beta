@@ -3,22 +3,22 @@
   "rss": "https://raw.githubusercontent.com/CopoGamerYT/mff-launcher-beta/refs/heads/main/noticias-y-actualizaciones.xml",
   "discord": {
     "clientId": "1086936373057040395",
-    "smallImageText": "Change me through Nebula",
-    "smallImageKey": "big"
+    "smallImageText": "",
+    "smallImageKey": ""
   },
   "servers": [
     {
-      "id": "WesterosCraft-Demo-1.12.2",
-      "name": "WesterosCraft-Demo (Minecraft 1.12.2)",
-      "description": "WesterosCraft-Demo Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
+      "id": "Minecraft-1.12.2",
+      "name": "Minecraft 1.12.2 Test",
+      "description": "Hola gue",
+      "icon": "https://i.imgur.com/kuQr13z.png",
       "version": "2.1.6",
       "address": "mc.universocraft.com:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "WesterosCraft Demo",
-        "largeImageKey": "westeroscraft",
-        "largeImageText": "Change me through Nebula"
+        "shortId": "Minecraft 1.12.2 Test",
+        "largeImageKey": "hola gue",
+        "largeImageText": "como tas gue"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -567,4 +567,5 @@
   ]
 
 }
+
 
