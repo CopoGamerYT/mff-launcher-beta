@@ -1,4 +1,10 @@
-   "smallImageKey": ""
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/CopoGamerYT/mff-launcher-beta/refs/heads/main/noticias-y-actualizaciones.xml",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "",
+    "smallImageKey": ""
   },
   "servers": [
     {
