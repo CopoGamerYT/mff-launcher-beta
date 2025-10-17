@@ -550,20 +550,11 @@
             "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
             "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
           }
-        },
-        {
-          "id": "SEUS-Renewed-v1.0.1.zip",
-          "name": "SEUS-Renewed-v1.0.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 7062638,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/shaderpacks/SEUS-Renewed-v1.0.1.zip",
-            "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
-            "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip"
-          }
+        }
         }
       ]
     }
   ]
 
 }
+
