@@ -7,505 +7,667 @@
     "smallImageKey": ""
   },
   "servers": [
-    {
-      "id": "Minecraft-1.12.2",
-      "name": "Minecraft 1.12.2 Test",
-      "description": "Hola gue",
-      "icon": "https://i.imgur.com/kuQr13z.png",
-      "version": "2.1.6",
-      "address": "mc.universocraft.com:25565",
-      "minecraftVersion": "1.12.2",
+   {
+      "id": "ModpackPrueba-1.19.2",
+      "name": "ModpackPrueba (Minecraft 1.19.2)",
+      "description": "ModpackPrueba Running Minecraft 1.19.2 (Forge v43.5.1)",
+      "icon": null,
+      "version": "",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
       "discord": {
-        "shortId": "Minecraft 1.12.2 Test",
-        "largeImageKey": "hola gue",
-        "largeImageText": "como tas gue"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
-          "name": "Minecraft Forge",
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.5.1",
+          "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
+          "classpath": true,
           "artifact": {
-            "size": 4466108,
-            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
-            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+            "size": 7375,
+            "MD5": "cfb8ad86a708c6d7bf8cee12ab933068",
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.5.1/lowcodelanguage-1.19.2-43.5.1.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2859",
+              "id": "1.19.2-43.5.1",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 12345,
-                "MD5": "1959bb357e54a9666dd80d744b524639",
-                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+                "size": 18052,
+                "MD5": "5098eea08563081a780a33bb03082493",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/versions/1.19.2-forge-43.5.1/1.19.2-forge-43.5.1.json"
               }
             },
             {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.5.1",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113798,
+                "MD5": "f371df0bf20db3eb543af04145167f30",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.5.1/fmlcore-1.19.2-43.5.1.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.5.1",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16831,
+                "MD5": "2a8fee16e8044fc9c496c337c7b42129",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.5.1/javafmllanguage-1.19.2-43.5.1.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.5.1",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4984,
+                "MD5": "a9e267bb502b18f21d4bc26361f868b2",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.5.1/mclanguage-1.19.2-43.5.1.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.5.1:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2738270,
+                "MD5": "3f63400df842144d269328a7fdc3f619",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.1/forge-1.19.2-43.5.1-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.5.1:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5459446,
+                "MD5": "01ad1637600ebc6e99f5c43f3f9876d6",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.1/forge-1.19.2-43.5.1-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
               "type": "Library",
               "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
               }
             },
             {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
               "type": "Library",
               "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
               "type": "Library",
               "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
               "type": "Library",
               "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
               "type": "Library",
               "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "id": "org.apache.maven:maven-artifact:3.8.5",
               "name": "Minecraft Forge (maven-artifact)",
               "type": "Library",
               "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
               "type": "Library",
               "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j-impl:2.19.0",
+              "name": "Minecraft Forge (log4j-slf4j-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 25040,
+                "MD5": "fa576fa465880e374c504d21b4481f47",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-slf4j-impl/2.19.0/log4j-slf4j-impl-2.19.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.19.0",
               "name": "Minecraft Forge (log4j-api)",
               "type": "Library",
               "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                "size": 317566,
+                "MD5": "a7f8fc9751cdaa237a1e18059b4887da",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "id": "org.apache.logging.log4j:log4j-core:2.19.0",
               "name": "Minecraft Forge (log4j-core)",
               "type": "Library",
               "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "size": 1864386,
+                "MD5": "b7f521926226a16531f8e212b1da1ffd",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "id": "net.java.dev.jna:jna:5.12.1",
+              "name": "Minecraft Forge (jna)",
               "type": "Library",
               "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+                "size": 1866196,
+                "MD5": "3bab13d7f5ca715013fcac64ceb4108d",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
+              }
+            },
+            {
+              "id": "net.java.dev.jna:jna-platform:5.12.1",
+              "name": "Minecraft Forge (jna-platform)",
+              "type": "Library",
+              "artifact": {
+                "size": 1356627,
+                "MD5": "061ec627ed090f59104e33cea38c97cd",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.5.1",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 263414,
+                "MD5": "9a1e84bd126a02fb39686853ae2a4c0c",
+                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.5.1/fmlloader-1.19.2-43.5.1.jar"
               }
             }
           ]
         },
         {
-          "id": "com.creativemd:creativecore:1.10@jar",
-          "name": "CreativeCore",
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1290012,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/CreativeCore_v1.10.65_mc1.12.2.jar",
-            "MD5": "e6e4ad48ce7d4f0cd47a5d106dbad745"
+            "size": 46991,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
           }
         },
         {
-          "id": "org.orecruncher:dsurround:1.12.2-3.6.1.0@jar",
-          "name": "Dynamic Surroundings",
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18.1+mc1.19.2@jar",
+          "name": "Embeddium",
           "type": "ForgeMod",
           "artifact": {
-            "size": 15929762,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/DynamicSurroundings-1.12.2-3.6.1.0.jar",
-            "MD5": "1a0d50a34941865ff091a492e0612502"
+            "size": 1578835,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
+            "MD5": "634c15fb16f76965938dc80b2b4fda9f"
           }
         },
         {
-          "id": "sekelsta.horse_colors:horse_colors:1.12.2-1.2.6@jar",
-          "name": "Realistic Horse Genetics",
+          "id": "de.keksuccino:fancymenu:3.7.0@jar",
+          "name": "FancyMenu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 711220,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/horse_colors-1.12.2-1.3.6.a.jar",
-            "MD5": "073030905d404994027f44839279cb3a"
+            "size": 6090075,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/fancymenu_forge_3.7.0_MC_1.19.2.jar",
+            "MD5": "19e984314c1aa1cf246fa1b0d69db301"
           }
         },
         {
-          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
-          "name": "JourneyMap",
+          "id": "snownee.jade:jade:8.9.2@jar",
+          "name": "Jade",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6990968,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1.jar",
-            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+            "size": 429175,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/Jade-1.19.1-forge-8.9.2.jar",
+            "MD5": "e757583b3a86dbd03c8cd02e00958ee2"
           }
         },
         {
-          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-          "name": "OptiFine 1.12.2_HD_U_G5",
+          "id": "mezz.jei:jei:11.6.0.1019@jar",
+          "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2669107,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
-            "MD5": "54e561e441192cf009803ae95873c5d0"
+            "size": 1090832,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1019.jar",
+            "MD5": "9715fec8116470c3c88d27b7efd4ebed"
           }
         },
         {
-          "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
-          "name": "OreLib Support Mod",
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
           "type": "ForgeMod",
           "artifact": {
-            "size": 341728,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
-            "MD5": "00cce3b240365458adcad3e77782358a"
+            "size": 628963,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+            "MD5": "7c77732a0e836fadd6a359d13a333160"
           }
         },
         {
-          "id": "com.shynieke:statues:0.8.9.2@jar",
-          "name": "Statues mod",
+          "id": "de.keksuccino:melody:1.0.1@jar",
+          "name": "Melody",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1811654,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/statues-1.12.X-0.8.9.2.jar",
-            "MD5": "a8c31d02a76d408ba19aabf832038087"
+            "size": 37177,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/melody_forge_1.0.1_MC_1.19.2.jar",
+            "MD5": "5b5bc4c0667325cca81e526289df6faf"
           }
         },
         {
-          "id": "com.creativemd.opf:opframe:1.7.0@jar",
-          "name": "WCOnlinePictureFrame",
+          "id": "yalter.mousetweaks:mousetweaks:2.23@jar",
+          "name": "Mouse Tweaks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 64116,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/WCOnlinePictureFrame-1.7.0-beta-1-forge-1.12.2.jar",
-            "MD5": "1f9cd1d59f899ea895fd32aee42ed72f"
+            "size": 75983,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/MouseTweaks-forge-mc1.19-2.23.jar",
+            "MD5": "855222f31f7a2ebfe84cd57480b9e011"
           }
         },
         {
-          "id": "com.westeroscraft:westerosblocks:4.3.4-126@jar",
-          "name": "WesterosBlocks",
+          "id": "com.chaosthedude:naturescompass:1.19.2-1.10.0-forge@jar",
+          "name": "Nature's Compass",
           "type": "ForgeMod",
           "artifact": {
-            "size": 19056312,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/WesterosBlocks-4.3.4-forge-1.12.2.jar",
-            "MD5": "fa85607024a470146e9ad088fe2c847c"
+            "size": 210023,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/NaturesCompass-1.19.2-1.10.0-forge.jar",
+            "MD5": "629b8abab8951d46c2ad078f3f12553a"
           }
         },
         {
-          "id": "com.westeroscraft:westerosentities:1.12.2-1.3.0@jar",
-          "name": "WesterosEntities",
+          "id": "net.coderbot.iris:oculus:1.6.9a@jar",
+          "name": "Oculus",
           "type": "ForgeMod",
           "artifact": {
-            "size": 287218,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/westerosentities-1.12.2-b6.jar",
-            "MD5": "a02be14d86cb9748892a92778b194f4c"
+            "size": 3503720,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9a.jar",
+            "MD5": "9d41127433fdeb778e51658fb9696a8a"
           }
         },
         {
-          "id": "betterfoliage.cfg",
-          "name": "betterfoliage.cfg",
-          "type": "File",
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.20.2.1035@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 7085,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/betterfoliage.cfg",
-            "MD5": "99b9aa746613296250a4adc35a27d749",
-            "path": "config/betterfoliage.cfg"
+            "size": 835625,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.20.2.1035.jar",
+            "MD5": "270a11790529c98e62ea287573b9fe0f"
           }
         },
         {
-          "id": "creativecore-client.json",
-          "name": "creativecore-client.json",
-          "type": "File",
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.6.4.730@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 221,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/creativecore-client.json",
-            "MD5": "057bbac7b2b20176faa1f70d4f1b2abf",
-            "path": "config/creativecore-client.json"
+            "size": 1059085,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.6.4.730.jar",
+            "MD5": "9bb810d6a76008ecb84d4b7621d8676f"
           }
         },
         {
-          "id": "dsurround.cfg",
-          "name": "dsurround.cfg",
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
           "type": "File",
           "artifact": {
-            "size": 15280,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/dsurround/dsurround.cfg",
-            "MD5": "005809133dcac77ebfaba07c5b9fa334",
-            "path": "config/dsurround/dsurround.cfg"
+            "size": 1361,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/appleskin-client.toml",
+            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "path": "config/appleskin-client.toml"
           }
         },
         {
-          "id": "forge.cfg",
-          "name": "forge.cfg",
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
           "type": "File",
           "artifact": {
-            "size": 3865,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forge.cfg",
-            "MD5": "f171671570ac5e1c6ce1717ff70c8633",
-            "path": "config/forge.cfg"
+            "size": 268,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/embeddium-mixins.properties",
+            "MD5": "930aecb1937f8b4122ce63b01b1e5ad3",
+            "path": "config/embeddium-mixins.properties"
           }
         },
         {
-          "id": "forgeChunkLoading.cfg",
-          "name": "forgeChunkLoading.cfg",
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
           "type": "File",
           "artifact": {
-            "size": 2155,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forgeChunkLoading.cfg",
-            "MD5": "255d6e9355788641e30db10e3c0b8551",
-            "path": "config/forgeChunkLoading.cfg"
+            "size": 789,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/embeddium-options.json",
+            "MD5": "a6b0c6f855c02e60ff31358ed824372b",
+            "path": "config/embeddium-options.json"
           }
         },
         {
-          "id": "horse_colors.cfg",
-          "name": "horse_colors.cfg",
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 4336,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/horse_colors.cfg",
-            "MD5": "a4976010ba4938857239ef37f9a491ed",
-            "path": "config/horse_colors.cfg"
+            "size": 76,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "8cd335741f1acd023a5203836fb9b944",
+            "path": "config/fancymenu/customizablemenus.txt"
           }
         },
         {
-          "id": "journeymap_ModInfo.cfg",
-          "name": "journeymap_ModInfo.cfg",
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 370,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/journeymap_ModInfo.cfg",
-            "MD5": "70f47abc0084802ab02ff3a3d769e244",
-            "path": "config/journeymap_ModInfo.cfg"
+            "size": 24905,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "45b86cdb39c5a9c6b28b0e17e3af91da",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
         {
-          "id": "journeymap_server.cfg",
-          "name": "journeymap_server.cfg",
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
           "type": "File",
           "artifact": {
-            "size": 615,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/journeymap_server.cfg",
-            "MD5": "704e8c040987675a9ac814abe9b7cdc6",
-            "path": "config/journeymap_server.cfg"
+            "size": 51,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
           }
         },
         {
-          "id": "opframe-client.json",
-          "name": "opframe-client.json",
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
           "type": "File",
           "artifact": {
-            "size": 32,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/opframe-client.json",
-            "MD5": "012d93890dbdefeb4343f8af53dc3b91",
-            "path": "config/opframe-client.json"
+            "size": 197,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
         },
         {
-          "id": "orelib.cfg",
-          "name": "orelib.cfg",
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
           "type": "File",
           "artifact": {
-            "size": 604,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/orelib.cfg",
-            "MD5": "70f8e6b6d17a73fe970a92f72cfbf21c",
-            "path": "config/orelib.cfg"
-          }
-        },
-        {
-          "id": "splash.properties",
-          "name": "splash.properties",
-          "type": "File",
-          "artifact": {
-            "size": 358,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/splash.properties",
-            "MD5": "b5ac94dbd3b3529fbb233f9df0e14795",
-            "path": "config/splash.properties"
-          }
-        },
-        {
-          "id": "statues.cfg",
-          "name": "statues.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 6931,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/statues.cfg",
-            "MD5": "3aae8ac0d253b88aedaaada1aa45a0c5",
-            "path": "config/statues.cfg"
-          }
-        },
-        {
-          "id": "westerosblocks.cfg",
-          "name": "westerosblocks.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 113,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/westerosblocks.cfg",
-            "MD5": "a9dcb36d082866117ec7dc63ff689b85",
-            "path": "config/westerosblocks.cfg"
+            "size": 42,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
           }
         },
         {
@@ -513,20 +675,428 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2788,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/options.txt",
+            "size": 2040,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/options.txt",
+            "MD5": "dd63cc05e79653d9bbe36dbbd32b4201",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 4133,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "3981f37966b00a80e31aac89169be280",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 4135,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 309,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fml.toml",
+            "MD5": "5829888c0be966fa241b4e7bbf274dce",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1107,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-client.toml",
+            "MD5": "556cde26c95de7f37e92f5fdd0e38073",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 566,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-common.toml",
+            "MD5": "74719f4a0ed1e053a9ffad049ace6325",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "forge-resource-caching.toml",
+          "name": "forge-resource-caching.toml",
+          "type": "File",
+          "artifact": {
+            "size": 637,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-resource-caching.toml",
+            "MD5": "10be5650c065e0013517d49833889d94",
+            "path": "config/forge-resource-caching.toml"
+          }
+        },
+        {
+          "id": "hide-blocks-1902.json",
+          "name": "hide-blocks-1902.json",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/hide-blocks-1902.json",
+            "MD5": "96a520226b75288fb7bcacc90ef64579",
+            "path": "config/jade/hide-blocks-1902.json"
+          }
+        },
+        {
+          "id": "hide-entities-1902.json",
+          "name": "hide-entities-1902.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/hide-entities-1902.json",
+            "MD5": "568d0ed721c9d1f8396c66298bf30c5d",
+            "path": "config/jade/hide-entities-1902.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 1829,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/jade.json",
+            "MD5": "91b06cb1ff665a3eb40dc6469718f358",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1519,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/plugins.json",
+            "MD5": "54ba43c1882a820be6801a711eb2dda5",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1279,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/sort-order.json",
+            "MD5": "8e1383a4b9e0d081e7a651b6c9c6dd77",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "279232599756bcbc3a21f57caab8507b",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 4685,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-client.ini",
+            "MD5": "2d4ca700dece77f1dc99081101b40e84",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1337,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-colors.ini",
+            "MD5": "a23718add9e4884ca9d259aedd73161b",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 245,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-debug.ini",
+            "MD5": "93e6df80ab4be396571f42debfbd14b7",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "d9df39bf869d7344ef78697b986e3b05",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 234,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "e23ab9b8006daae0e8be5077e7a173b5",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "naturescompass-client-1.toml.bak",
+          "name": "naturescompass-client-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-client-1.toml.bak",
+            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
+            "path": "config/naturescompass-client-1.toml.bak"
+          }
+        },
+        {
+          "id": "naturescompass-client.toml",
+          "name": "naturescompass-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 432,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-client.toml",
+            "MD5": "dfe7626832ede6b7b53e6a898b96e5d9",
+            "path": "config/naturescompass-client.toml"
+          }
+        },
+        {
+          "id": "naturescompass-common.toml",
+          "name": "naturescompass-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1142,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-common.toml",
+            "MD5": "d80b82667a1fe6b49421b7a7db5ebd8a",
+            "path": "config/naturescompass-common.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 253,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/oculus.properties",
+            "MD5": "198c7ce8e0a42346865b38c018702097",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-common.toml",
+          "name": "sophisticatedbackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedbackpacks-common.toml",
+            "MD5": "2c6eb54ca9cb7722ec68ffc73667b88b",
+            "path": "config/sophisticatedbackpacks-common.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-client.toml",
+          "name": "sophisticatedcore-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 351,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedcore-client.toml",
+            "MD5": "154bd9cf14a45c6aa007cb5467f1a454",
+            "path": "config/sophisticatedcore-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-common.toml",
+          "name": "sophisticatedcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2554,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedcore-common.toml",
+            "MD5": "84cceef8694aa18706bd3e0fe8f33370",
+            "path": "config/sophisticatedcore-common.toml"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5801,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/options.txt",
+            "MD5": "d75c09068726b59e36c199a57fe50098",
             "path": "options.txt"
           }
         },
         {
-          "id": "WesterosCraft-v1.12.2-29.zip",
-          "name": "WesterosCraft-v1.12.2-29.zip",
+          "id": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+          "name": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
           "type": "File",
           "artifact": {
-            "size": 55905310,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/resourcepacks/WesterosCraft-v1.12.2-29.zip",
-            "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
-            "path": "resourcepacks/WesterosCraft-v1.12.2-29.zip"
+            "size": 321871,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/-1.21.2%20Fresh%20Moves%20v3.1%20(With%20Animated%20Eyes).zip",
+            "MD5": "9425263fea042911f13a1482f4c3f436",
+            "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "resourcepacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "resourcepacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.8.zip",
+          "name": "FreshAnimations_v1.8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 470506,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/FreshAnimations_v1.8.zip",
+            "MD5": "8c35864cfcaa378b5f110048bbcc8c40",
+            "path": "resourcepacks/FreshAnimations_v1.8.zip"
+          }
+        },
+        {
+          "id": "MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+          "name": "MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 725928,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+            "MD5": "b2f4bd2158ebabc8164126c58e8d3cc8",
+            "path": "resourcepacks/MandalasGUI+Dakmode_1.21.6_v2.0.zip"
           }
         },
         {
@@ -534,32 +1104,10 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 84,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/servers.dat",
-            "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
+            "size": 28896,
+            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/servers.dat",
+            "MD5": "576e7068930ef2d65d2c1752c42e4d90",
             "path": "servers.dat"
-          }
-        },
-        {
-          "id": "Chocapic13_V9_Extreme.zip",
-          "name": "Chocapic13_V9_Extreme.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3134623,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/shaderpacks/Chocapic13_V9_Extreme.zip",
-            "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
-            "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
-          }
-        },
-        {
-          "id": "SEUS-Renewed-v1.0.1.zip",
-          "name": "SEUS-Renewed-v1.0.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 7062638,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/shaderpacks/SEUS-Renewed-v1.0.1.zip",
-            "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
-            "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip"
           }
         }
       ]
@@ -567,3 +1115,4 @@
   ]
 
 }
+
