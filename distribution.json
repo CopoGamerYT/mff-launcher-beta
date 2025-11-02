@@ -8,12 +8,12 @@
   },
   "servers": [
    {
-      "id": "ModpackPrueba-1.19.2",
-      "name": "ModpackPrueba (Minecraft 1.19.2)",
-      "description": "ModpackPrueba Running Minecraft 1.19.2 (Forge v43.5.1)",
-      "icon": null,
-      "version": "",
-      "address": "localhost:25565",
+      "id": "HHProyect-1.19.2",
+      "name": "HHProyect",
+      "description": "¿Crees que puedes sobrevivir?",
+      "icon": "https://i.imgur.com/apTQblQ.png",
+      "version": "1.0.0",
+      "address": "sxhardcore.aternos.me:45341",
       "minecraftVersion": "1.19.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -24,83 +24,83 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.5.1",
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.5.0",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7375,
-            "MD5": "cfb8ad86a708c6d7bf8cee12ab933068",
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.5.1/lowcodelanguage-1.19.2-43.5.1.jar"
+            "size": 7374,
+            "MD5": "912c42b72192ab93f852eddda05f4610",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar"
           },
           "subModules": [
             {
-              "id": "1.19.2-43.5.1",
+              "id": "1.19.2-43.5.0",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 18052,
-                "MD5": "5098eea08563081a780a33bb03082493",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/versions/1.19.2-forge-43.5.1/1.19.2-forge-43.5.1.json"
+                "MD5": "0f1f555add87278517e671ac8be90a38",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/versions/1.19.2-forge-43.5.0/1.19.2-forge-43.5.0.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.19.2-43.5.1",
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.5.0",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 113798,
-                "MD5": "f371df0bf20db3eb543af04145167f30",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.5.1/fmlcore-1.19.2-43.5.1.jar"
+                "size": 113797,
+                "MD5": "f3e83ce759ab3878e79b14fed4ddfc17",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.5.1",
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.5.0",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16831,
-                "MD5": "2a8fee16e8044fc9c496c337c7b42129",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.5.1/javafmllanguage-1.19.2-43.5.1.jar"
+                "size": 16830,
+                "MD5": "6311ca2fbe2e83b45dfddf427b6481b6",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.19.2-43.5.1",
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.5.0",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4984,
-                "MD5": "a9e267bb502b18f21d4bc26361f868b2",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.5.1/mclanguage-1.19.2-43.5.1.jar"
+                "size": 4982,
+                "MD5": "d901da27b242ee8daa7dcd872bb29d75",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.2-43.5.1:universal",
+              "id": "net.minecraftforge:forge:1.19.2-43.5.0:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2738270,
-                "MD5": "3f63400df842144d269328a7fdc3f619",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.1/forge-1.19.2-43.5.1-universal.jar"
+                "size": 2737280,
+                "MD5": "b8e586228827abbdc23d551f655cbea4",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.0/forge-1.19.2-43.5.0-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.2-43.5.1:client",
+              "id": "net.minecraftforge:forge:1.19.2-43.5.0:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
                 "size": 5459446,
                 "MD5": "01ad1637600ebc6e99f5c43f3f9876d6",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.1/forge-1.19.2-43.5.1-client.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/forge/1.19.2-43.5.0/forge-1.19.2-43.5.0-client.jar"
               },
               "subModules": []
             },
@@ -112,7 +112,7 @@
               "artifact": {
                 "size": 17332865,
                 "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
               },
               "subModules": []
             },
@@ -124,7 +124,7 @@
               "artifact": {
                 "size": 11637719,
                 "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
               },
               "subModules": []
             },
@@ -136,7 +136,7 @@
               "artifact": {
                 "size": 10007043,
                 "MD5": "3014cfce92de3aff55cc50908a510051",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
               },
               "subModules": []
             },
@@ -147,7 +147,7 @@
               "artifact": {
                 "size": 87315,
                 "MD5": "b49ceccef2c091769f134c47c108cb8b",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
               }
             },
             {
@@ -157,7 +157,7 @@
               "artifact": {
                 "size": 126093,
                 "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
@@ -167,7 +167,7 @@
               "artifact": {
                 "size": 73459,
                 "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
@@ -177,7 +177,7 @@
               "artifact": {
                 "size": 51939,
                 "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
@@ -187,7 +187,7 @@
               "artifact": {
                 "size": 94519,
                 "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
@@ -197,7 +197,7 @@
               "artifact": {
                 "size": 35126,
                 "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -207,7 +207,7 @@
               "artifact": {
                 "size": 77756,
                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -217,7 +217,7 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
@@ -227,7 +227,7 @@
               "artifact": {
                 "size": 52624,
                 "MD5": "7c93693a70962a1c1893e3c058dca5cf",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
               }
             },
             {
@@ -237,7 +237,7 @@
               "artifact": {
                 "size": 32714,
                 "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
               }
             },
             {
@@ -247,7 +247,7 @@
               "artifact": {
                 "size": 31872,
                 "MD5": "5295505357ba9b98450c5e3121f82191",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
@@ -257,7 +257,7 @@
               "artifact": {
                 "size": 130263,
                 "MD5": "3e171edcc29e762d2ecafffabb9e9341",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
               }
             },
             {
@@ -267,7 +267,7 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
               }
             },
             {
@@ -277,7 +277,7 @@
               "artifact": {
                 "size": 199834,
                 "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
@@ -287,7 +287,7 @@
               "artifact": {
                 "size": 31816,
                 "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
@@ -297,7 +297,7 @@
               "artifact": {
                 "size": 58077,
                 "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
@@ -307,7 +307,7 @@
               "artifact": {
                 "size": 15425,
                 "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
               }
             },
             {
@@ -317,7 +317,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -327,7 +327,7 @@
               "artifact": {
                 "size": 150765,
                 "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
@@ -337,7 +337,7 @@
               "artifact": {
                 "size": 211712,
                 "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             },
             {
@@ -347,7 +347,7 @@
               "artifact": {
                 "size": 1089277,
                 "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
@@ -357,7 +357,7 @@
               "artifact": {
                 "size": 2167292,
                 "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
               }
             },
             {
@@ -367,7 +367,7 @@
               "artifact": {
                 "size": 17374,
                 "MD5": "5e859d6320cb16055febaedacb8b9806",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
               }
             },
             {
@@ -377,7 +377,7 @@
               "artifact": {
                 "size": 15242,
                 "MD5": "332b118877d33c715f3ee67b75bffdd7",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
               }
             },
             {
@@ -387,7 +387,7 @@
               "artifact": {
                 "size": 25040,
                 "MD5": "fa576fa465880e374c504d21b4481f47",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-slf4j-impl/2.19.0/log4j-slf4j-impl-2.19.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/apache/logging/log4j/log4j-slf4j-impl/2.19.0/log4j-slf4j-impl-2.19.0.jar"
               }
             },
             {
@@ -397,7 +397,7 @@
               "artifact": {
                 "size": 317566,
                 "MD5": "a7f8fc9751cdaa237a1e18059b4887da",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
               }
             },
             {
@@ -407,7 +407,7 @@
               "artifact": {
                 "size": 1864386,
                 "MD5": "b7f521926226a16531f8e212b1da1ffd",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
               }
             },
             {
@@ -417,7 +417,7 @@
               "artifact": {
                 "size": 1866196,
                 "MD5": "3bab13d7f5ca715013fcac64ceb4108d",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
               }
             },
             {
@@ -427,7 +427,7 @@
               "artifact": {
                 "size": 1356627,
                 "MD5": "061ec627ed090f59104e33cea38c97cd",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
               }
             },
             {
@@ -437,7 +437,7 @@
               "artifact": {
                 "size": 8284,
                 "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
               }
             },
             {
@@ -447,20 +447,50 @@
               "artifact": {
                 "size": 32052,
                 "MD5": "f4efd51f520cb4c98483c040bdc58aab",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.19.2-43.5.1",
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.5.0",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
                 "size": 263414,
-                "MD5": "9a1e84bd126a02fb39686853ae2a4c0c",
-                "url": "https://remarkable-tartufo-3426c0.netlify.app/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.5.1/fmlloader-1.19.2-43.5.1.jar"
+                "MD5": "5afb4ec582686c81c2a5e41b6bb97064",
+                "url": "https://verdant-marzipan-26c7f2.netlify.app/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.5.0/fmlloader-1.19.2-43.5.0.jar"
               }
             }
           ]
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.4.7@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206511,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/AdvancementPlaques-1.19.2-1.4.7.jar",
+            "MD5": "b167331abe438731f132eb339ad03682"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:5.3.9@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84253098,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/AmbientSounds_FORGE_v5.3.9_mc1.19.2.jar",
+            "MD5": "9f694f913e82896a12655b590402368b"
+          }
+        },
+        {
+          "id": "io.github.foundationgames:animatica:1.19.2-0.1.2@jar",
+          "name": "AnimaticaReforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68535,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/AnimaticaReforged-1.19.2-0.1.2.jar",
+            "MD5": "6862fcc156e4469e91ef301ea3dc0d5b"
+          }
         },
         {
           "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
@@ -468,8 +498,218 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 46991,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
             "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.6.92@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 559099,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/architectury-6.6.92-forge.jar",
+            "MD5": "ddf52fbc5ce9e2d1e6779d29f74cb573"
+          }
+        },
+        {
+          "id": "net.sydokiddo:auditory:0.0.5-1.19.2@jar",
+          "name": "Auditory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 678950,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/auditory-0.0.5-1.19.2.jar",
+            "MD5": "70cd3e8d98d9d976c258f656bea0952e"
+          }
+        },
+        {
+          "id": "com.natamus:beautifiedchatclient:2.5@jar",
+          "name": "Beautified Chat Client",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27414,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/beautifiedchatclient-1.19.2-2.5.jar",
+            "MD5": "c31b270fc4c363971a52faad229b64d4"
+          }
+        },
+        {
+          "id": "fuzs.betteranimationscollection:betteranimationscollection:4.0.5@jar",
+          "name": "Better Animations Collection",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193538,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/BetterAnimationsCollection-v4.0.5-1.19.2-Forge.jar",
+            "MD5": "629b24d32fe11769230242f5da7d8c27"
+          }
+        },
+        {
+          "id": "me.treyruffy:betterf3:4.0.1@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 455755,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/BetterF3-4.0.1-Forge-1.19.2.jar",
+            "MD5": "361e6d2033abe7041039d4a9bc752068"
+          }
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.19.2-4.1@jar",
+          "name": "Betterfpsdist mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17012,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/betterfpsdist-1.19.2-4.1.jar",
+            "MD5": "658deefb844f879f8b265fe2e291e70a"
+          }
+        },
+        {
+          "id": "io.socol:betterthirdperson:1.9.0@jar",
+          "name": "Better Third Person",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60964,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/BetterThirdPerson-Forge-1.19-1.9.0.jar",
+            "MD5": "239adb8b1c10f56c9247b7737e4127a4"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.14.0@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 709857,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/chat_heads-0.14.0-forge-1.19.2.jar",
+            "MD5": "2708b118367fc19b4d7b879baff8d62c"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.3.134@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1176412,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/cloth-config-8.3.134-forge.jar",
+            "MD5": "de66032c44e6ee8206af3f31977176c7"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:9.0.0+14@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19083,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Clumps-forge-1.19.2-9.0.0+14.jar",
+            "MD5": "bdf6d74aadb9d5e5b0167a40ad0ad90d"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.64@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 618144,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/collective-1.19.2-7.64.jar",
+            "MD5": "891ac069984a1d0d957dc63898f6654b"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:1.19.2-4.6@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62868,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/connectivity-1.19.2-4.6.jar",
+            "MD5": "00fae6fe01d096c69ddf33173fde520b"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:10.0+7@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117659,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Controlling-forge-1.19.2-10.0+7.jar",
+            "MD5": "a1806659c98d659f6daad51a6673671a"
+          }
+        },
+        {
+          "id": "com.leclowndu93150:coolrain:1.0.2@jar",
+          "name": "Cool Rain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4155679,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/coolrain-1.19.2-Forge-1.0.2.jar",
+            "MD5": "e97432e042c92fa53e1f7b10a5e829d7"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.19.2-1.3.6@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61734,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/coroutil-forge-1.19.2-1.3.6.jar",
+            "MD5": "0dbb313af302707144a2fd4695a05913"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.11.28@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1116183,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/CreativeCore_FORGE_v2.11.28_mc1.19.2.jar",
+            "MD5": "ee86b8211103e51c848a5405542d8fcb"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.19.2-2.6@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24766,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/cupboard-1.19.2-2.6.jar",
+            "MD5": "231038e00de6b3bce6e7a47712045017"
+          }
+        },
+        {
+          "id": "de.keksuccino:drippyloadingscreen:3.0.12@jar",
+          "name": "Drippy Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 240125,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/drippyloadingscreen_forge_3.0.12_MC_1.19.2.jar",
+            "MD5": "2bc691733fb37c6e9cd851e0f7e82273"
+          }
+        },
+        {
+          "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.19.2_v1.4.0@jar",
+          "name": "Rubidium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90207,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+            "MD5": "67f6b3118439adc4e56724c78001e981"
+          }
+        },
+        {
+          "id": "com.matyrobbrt:eatinganimation:3.0.0@jar",
+          "name": "Eating Animation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277447,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/eatinganimation-1.19-3.2.0.jar",
+            "MD5": "00a6fba878e4af566732255d5742ef98"
+          }
+        },
+        {
+          "id": "bottomtextdanny.effective_fg:effective_fg:1.3.4@jar",
+          "name": "Effective (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 742233,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/effective_fg-1.3.4.jar",
+            "MD5": "920a1be75ee5f54f6bdd32eea6752b73"
           }
         },
         {
@@ -478,8 +718,68 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1578835,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
             "MD5": "634c15fb16f76965938dc80b2b4fda9f"
+          }
+        },
+        {
+          "id": "team.creative:enhancedvisuals:1.5.11@jar",
+          "name": "EnhancedVisuals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4705488,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/EnhancedVisuals_FORGE_v1.5.11_mc1.19.2.jar",
+            "MD5": "28b81f0317b0053664cae3e9807678c0"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 381815,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/entity_model_features_forge_1.19.2-2.0.2.jar",
+            "MD5": "b5b4c456b7a5bcd168a2f521fadfb5bf"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 542503,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/entity_texture_features_forge_1.19.2-6.0.1.jar",
+            "MD5": "a3320050da469cd9a7c2ce08e5782e48"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60289,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/entityculling-forge-1.6.1-mc1.19.2.jar",
+            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
+          }
+        },
+        {
+          "id": "dev.xylonity:explosiveenhancement:1.0.1@jar",
+          "name": "Explosive Enhancement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270552,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/explosiveenhancement-1.0.1.jar",
+            "MD5": "8aff580ff068286dcb2207a535e413a5"
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:1.3.1@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 121907,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Fallingleaves-1.19.1-1.3.1.jar",
+            "MD5": "80a4606bbeb8165d5eb9f87e63126364"
           }
         },
         {
@@ -488,28 +788,68 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6090075,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/fancymenu_forge_3.7.0_MC_1.19.2.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/fancymenu_forge_3.7.0_MC_1.19.2.jar",
             "MD5": "19e984314c1aa1cf246fa1b0d69db301"
           }
         },
         {
-          "id": "snownee.jade:jade:8.9.2@jar",
-          "name": "Jade",
+          "id": "shadows.fastsuite:fastsuite:4.1.1@jar",
+          "name": "Fast Suite",
           "type": "ForgeMod",
           "artifact": {
-            "size": 429175,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/Jade-1.19.1-forge-8.9.2.jar",
-            "MD5": "e757583b3a86dbd03c8cd02e00958ee2"
+            "size": 19301,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/FastSuite-1.19.2-4.1.1.jar",
+            "MD5": "80ea6c54a57792222ce004cff6e62f96"
           }
         },
         {
-          "id": "mezz.jei:jei:11.6.0.1019@jar",
-          "name": "Just Enough Items",
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1090832,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1019.jar",
-            "MD5": "9715fec8116470c3c88d27b7efd4ebed"
+            "size": 116824,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.19.2-1.6@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8002,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/gpumemleakfix-1.19.2-1.6.jar",
+            "MD5": "ba88706c94fafb0864426635548f74b9"
+          }
+        },
+        {
+          "id": "com.jahirtrap.healthindicator:healthindicatortxf:1.19.2-1.3.9-forge@jar",
+          "name": "Health Indicator TXF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79053,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/healthindicatortxf-1.19.2-1.3.9-forge.jar",
+            "MD5": "165374f939138fed5ae363070faed3f4"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.4@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 109565,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Iceberg-1.19.2-forge-1.1.4.jar",
+            "MD5": "f11f7ab27b5391e838562cb86a8908dc"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.4.0+1.19.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 416424,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/ImmediatelyFast-Forge-1.4.0+1.19.2.jar",
+            "MD5": "c4e0d8fb1ba9ef23283cf20a9ee359f1"
           }
         },
         {
@@ -518,8 +858,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 628963,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
             "MD5": "7c77732a0e836fadd6a359d13a333160"
+          }
+        },
+        {
+          "id": "com.frikinjay:letmedespawn:1.3.2b@jar",
+          "name": "Let Me Despawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85057,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/letmedespawn-forge-1.3.2b.jar",
+            "MD5": "1c23ca8c800db5e8948a20f05ce26a4b"
           }
         },
         {
@@ -528,8 +878,28 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 37177,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/melody_forge_1.0.1_MC_1.19.2.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/melody_forge_1.0.1_MC_1.19.2.jar",
             "MD5": "5b5bc4c0667325cca81e526289df6faf"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.18.1+mc1.19.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 777028,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/modernfix-forge-5.18.1+mc1.19.2.jar",
+            "MD5": "0058be0796c1c27de9a236f7eb9ce5e0"
+          }
+        },
+        {
+          "id": "com.github.nyuppo:moremobvariants:1.3.0@jar",
+          "name": "More Mob Variants",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 378981,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/moremobvariants-forge+1.19.2-1.3.0.1.jar",
+            "MD5": "add511cac100e2b91a8f2419747388d7"
           }
         },
         {
@@ -538,18 +908,28 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 75983,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/MouseTweaks-forge-mc1.19-2.23.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/MouseTweaks-forge-mc1.19-2.23.jar",
             "MD5": "855222f31f7a2ebfe84cd57480b9e011"
           }
         },
         {
-          "id": "com.chaosthedude:naturescompass:1.19.2-1.10.0-forge@jar",
-          "name": "Nature's Compass",
+          "id": "elocindev.necronomicon:necronomicon:1.4.2@jar",
+          "name": "Necronomicon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 210023,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/NaturesCompass-1.19.2-1.10.0-forge.jar",
-            "MD5": "629b8abab8951d46c2ad078f3f12553a"
+            "size": 45990,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Necronomicon-Forge-1.4.2.jar",
+            "MD5": "eb68ab883d5b22f20005f1a865c03652"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.10.6@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 837061,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/notenoughanimations-forge-1.10.6-mc1.19.2.jar",
+            "MD5": "a775c3cf889144b4174cd9cc1fb75ed3"
           }
         },
         {
@@ -558,28 +938,199 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3503720,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9a.jar",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/optionalon/oculus-mc1.19.2-1.6.9a.jar",
             "MD5": "9d41127433fdeb778e51658fb9696a8a"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.20.2.1035@jar",
-          "name": "Sophisticated Backpacks",
+          "id": "shadows.placebo:placebo:7.4.1@jar",
+          "name": "Placebo",
           "type": "ForgeMod",
           "artifact": {
-            "size": 835625,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.20.2.1035.jar",
-            "MD5": "270a11790529c98e62ea287573b9fe0f"
+            "size": 249350,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/Placebo-1.19.2-7.4.1.jar",
+            "MD5": "54db5a0f749f917d408a108942e9ca66"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.6.4.730@jar",
-          "name": "Sophisticated Core",
+          "id": "com.legacy:pop:1.0.0@jar",
+          "name": "Pop!",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1059085,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.6.4.730.jar",
-            "MD5": "9bb810d6a76008ecb84d4b7621d8676f"
+            "size": 6762,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/pop-1.19-1.0.0.jar",
+            "MD5": "7fdcc76fc081e0595adb78df8273a4f1"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.19.2-1.6.4.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7176267,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/PresenceFootsteps-1.19.2-1.6.4.1-forge.jar",
+            "MD5": "030a78b2a08a5c2c35ffe9d55776b9f1"
+          }
+        },
+        {
+          "id": "ru.projectilesounds:projectilesounds:1.0@jar",
+          "name": "ProjectileSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 151783,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/ProjectileSounds-1.19.2.jar",
+            "MD5": "5c137b1d741e9a0c0ac3d4764fbed616"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:4.4.3@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395272,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
+            "MD5": "ada0a5030dfcecdfd37f18cc9deca7c6"
+          }
+        },
+        {
+          "id": "vice.rubidium_extras:rubidium_extras:1.19.2_v1.4.3@jar",
+          "name": "Rubidium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63223,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/rubidium_extras-1.19.2_v1.4.3.jar",
+            "MD5": "b9f15ef81e564d236fc93e5e6aa17af2"
+          }
+        },
+        {
+          "id": "vice.satisfying_buttons:satisfying_buttons:1.0.0@jar",
+          "name": "Satisfying Buttons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34939,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/satisfying_buttons-1.0.0-1.jar",
+            "MD5": "963e7508dfa2cb9392a0f9026341f034"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.9.2@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1052543,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/optionalon/skinlayers3d-forge-1.9.2-mc1.19.2.jar",
+            "MD5": "db3d80a3ce7079dde107ae22e767051b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.19.2-1.4.5@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194996,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/sound-physics-remastered-forge-1.19.2-1.4.5.jar",
+            "MD5": "3c40b92da93111b3852743aea36b9245"
+          }
+        },
+        {
+          "id": "plus.dragons:visuality:2.0.2@jar",
+          "name": "Visuality: Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216129,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/visuality-forge-2.0.2.jar",
+            "MD5": "f99ad66c133857777d54973721bc897c"
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:4.2.4@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82918,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/VisualWorkbench-v4.2.4-1.19.2-Forge.jar",
+            "MD5": "d23680b419036187552f8d5a8a6d3312"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.19.2-1.0.14@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162555,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/watut-forge-1.19.2-1.0.14.jar",
+            "MD5": "ccb8322313173892c7d14c69c69fa237"
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.7.0@jar",
+          "name": "WaveyCapes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 744490,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/waveycapes-forge-1.7.0-mc1.19.2.jar",
+            "MD5": "83b8162ab85f795a189f3debc76dc93a"
+          }
+        },
+        {
+          "id": "advancementplaques-common.toml",
+          "name": "advancementplaques-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2378,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/advancementplaques-common.toml",
+            "MD5": "1ac6b869b0d1d34ac5657492704da54a",
+            "path": "config/advancementplaques-common.toml"
+          }
+        },
+        {
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 3396,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/ambientsounds-client.json",
+            "MD5": "20e520985336642e8a700259338d37bc",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "animatica-client.toml",
+          "name": "animatica-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 43,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/animatica-client.toml",
+            "MD5": "405f9b786b160bb34f595680d73e5deb",
+            "path": "config/animatica-client.toml"
+          }
+        },
+        {
+          "id": "animations.json5",
+          "name": "animations.json5",
+          "type": "File",
+          "artifact": {
+            "size": 3232,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/animation_overhaul/animations.json5",
+            "MD5": "df02eda92ce4f87efed7317329cac322",
+            "path": "config/animation_overhaul/animations.json5"
+          }
+        },
+        {
+          "id": "local_player.json5",
+          "name": "local_player.json5",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/animation_overhaul/local_player.json5",
+            "MD5": "80e26e0601dfd6c21b7c8ad741a16917",
+            "path": "config/animation_overhaul/local_player.json5"
           }
         },
         {
@@ -588,9 +1139,163 @@
           "type": "File",
           "artifact": {
             "size": 1361,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/appleskin-client.toml",
-            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/appleskin-client.toml",
+            "MD5": "96c41ff44a443916b2a59da9feef9950",
             "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "auditory.json",
+          "name": "auditory.json",
+          "type": "File",
+          "artifact": {
+            "size": 1607,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/auditory.json",
+            "MD5": "d8a6d0fabd428d3ae5a87ab46c5981fd",
+            "path": "config/auditory.json"
+          }
+        },
+        {
+          "id": "beautifiedchatclient.json5",
+          "name": "beautifiedchatclient.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1718,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/beautifiedchatclient.json5",
+            "MD5": "3ebecd88e1ad3100f8b36c9ba50e4c84",
+            "path": "config/beautifiedchatclient.json5"
+          }
+        },
+        {
+          "id": "betteranimationscollection-client.toml",
+          "name": "betteranimationscollection-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8650,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/betteranimationscollection-client.toml",
+            "MD5": "d7c32f19169460f666e95b4e3200bc08",
+            "path": "config/betteranimationscollection-client.toml"
+          }
+        },
+        {
+          "id": "betterf3.toml",
+          "name": "betterf3.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3008,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/betterf3.toml",
+            "MD5": "a32bc58336b5a9d46ec850aee51577f7",
+            "path": "config/betterf3.toml"
+          }
+        },
+        {
+          "id": "betterfpsdist.json",
+          "name": "betterfpsdist.json",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/betterfpsdist.json",
+            "MD5": "3597a45a8a46415054cc2955f6604b0c",
+            "path": "config/betterfpsdist.json"
+          }
+        },
+        {
+          "id": "betterthirdperson-common.toml",
+          "name": "betterthirdperson-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 687,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/betterthirdperson-common.toml",
+            "MD5": "80e45f5aa422748f63c9c3c4197d031f",
+            "path": "config/betterthirdperson-common.toml"
+          }
+        },
+        {
+          "id": "chat_heads.json5",
+          "name": "chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/chat_heads.json5",
+            "MD5": "95907776cd681dd4b584741aa8cccdd2",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 960,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/collective.json5",
+            "MD5": "0966eae411065e30c194c91f61d887d4",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "connectivity.json",
+          "name": "connectivity.json",
+          "type": "File",
+          "artifact": {
+            "size": 1185,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/connectivity.json",
+            "MD5": "6e90024329530a4ac685505314054404",
+            "path": "config/connectivity.json"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/CoroUtil/General.toml",
+            "MD5": "8f9eed7bc02c6d45d54ea813d5ddf1cc",
+            "path": "config/CoroUtil/General.toml"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/drippyloadingscreen/options.txt",
+            "MD5": "422b46098fc009b4e6a0b1b16c61e17c",
+            "path": "config/drippyloadingscreen/options.txt"
+          }
+        },
+        {
+          "id": "dynamic_lights_reforged.toml",
+          "name": "dynamic_lights_reforged.toml",
+          "type": "File",
+          "artifact": {
+            "size": 301,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/dynamic_lights_reforged.toml",
+            "MD5": "a174f8fa9f4d5817558886c58739dc37",
+            "path": "config/dynamic_lights_reforged.toml"
+          }
+        },
+        {
+          "id": "effective_fg-client.toml",
+          "name": "effective_fg-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 782,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/effective_fg-client.toml",
+            "MD5": "95bb10ea100074625fb18cfd4637bce0",
+            "path": "config/effective_fg-client.toml"
           }
         },
         {
@@ -599,7 +1304,7 @@
           "type": "File",
           "artifact": {
             "size": 268,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/embeddium-mixins.properties",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/embeddium-mixins.properties",
             "MD5": "930aecb1937f8b4122ce63b01b1e5ad3",
             "path": "config/embeddium-mixins.properties"
           }
@@ -610,9 +1315,174 @@
           "type": "File",
           "artifact": {
             "size": 789,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/embeddium-options.json",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/embeddium-options.json",
             "MD5": "a6b0c6f855c02e60ff31358ed824372b",
             "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "enhancedvisuals-client.json",
+          "name": "enhancedvisuals-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 7073,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/enhancedvisuals-client.json",
+            "MD5": "6dfae2c101967d45a1c163f26296e227",
+            "path": "config/enhancedvisuals-client.json"
+          }
+        },
+        {
+          "id": "enhancedvisuals.json",
+          "name": "enhancedvisuals.json",
+          "type": "File",
+          "artifact": {
+            "size": 429,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/enhancedvisuals.json",
+            "MD5": "279f032a0748fb301202c6daebc84b83",
+            "path": "config/enhancedvisuals.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 790,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/entityculling.json",
+            "MD5": "6ffe8454f31025bed6846fbc5f3ed5dd",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 662,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/entity_model_features.json",
+            "MD5": "1195b44cdb702ec93fad2edd155cb0ee",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/entity_texture_features.json",
+            "MD5": "06c0a85651987e3bcd9307adedc14cf2",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "explosiveenhancement.toml",
+          "name": "explosiveenhancement.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1640,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/explosiveenhancement.toml",
+            "MD5": "ce6796097a6db0409569f3115d00620e",
+            "path": "config/explosiveenhancement.toml"
+          }
+        },
+        {
+          "id": "fallingleaves-client.toml",
+          "name": "fallingleaves-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 796,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fallingleaves-client.toml",
+            "MD5": "f0b44495057005481c0f14a656ae9231",
+            "path": "config/fallingleaves-client.toml"
+          }
+        },
+        {
+          "id": "166.png",
+          "name": "166.png",
+          "type": "File",
+          "artifact": {
+            "size": 841,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/166.png",
+            "MD5": "39676358c2ce2e45669f05c898974a49",
+            "path": "config/fancymenu/assets/166.png"
+          }
+        },
+        {
+          "id": "2323.png",
+          "name": "2323.png",
+          "type": "File",
+          "artifact": {
+            "size": 1467,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/2323.png",
+            "MD5": "39d78d127953a64b4b5a2e00a657ea0b",
+            "path": "config/fancymenu/assets/2323.png"
+          }
+        },
+        {
+          "id": "a.icns",
+          "name": "a.icns",
+          "type": "File",
+          "artifact": {
+            "size": 17155,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/a.icns",
+            "MD5": "02409497fa98032db84c724ee561c9e5",
+            "path": "config/fancymenu/assets/a.icns"
+          }
+        },
+        {
+          "id": "elcacas.png",
+          "name": "elcacas.png",
+          "type": "File",
+          "artifact": {
+            "size": 156384,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/elcacas.png",
+            "MD5": "4651a72c997e6fd0ded7a00c320d5653",
+            "path": "config/fancymenu/assets/elcacas.png"
+          }
+        },
+        {
+          "id": "fondo.gif",
+          "name": "fondo.gif",
+          "type": "File",
+          "artifact": {
+            "size": 9604119,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/fondo.gif",
+            "MD5": "d4a4f19631a986b5f9bdfb9a5b210f65",
+            "path": "config/fancymenu/assets/fondo.gif"
+          }
+        },
+        {
+          "id": "menupausa.png",
+          "name": "menupausa.png",
+          "type": "File",
+          "artifact": {
+            "size": 111863,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/menupausa.png",
+            "MD5": "71e161eb9b340058528594b52be06d63",
+            "path": "config/fancymenu/assets/menupausa.png"
+          }
+        },
+        {
+          "id": "studios1.png",
+          "name": "studios1.png",
+          "type": "File",
+          "artifact": {
+            "size": 119955,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/assets/studios1.png",
+            "MD5": "153e7062edf6e23dc8b014de8be37628",
+            "path": "config/fancymenu/assets/studios1.png"
           }
         },
         {
@@ -620,10 +1490,54 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 76,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "8cd335741f1acd023a5203836fb9b944",
+            "size": 323,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "948b9d93d4b4179609488208d912cff9",
             "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "drippy_loading_overlay_layout.txt",
+          "name": "drippy_loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6274,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+            "MD5": "9adff65e2b02459a0b5f7c431d14f855",
+            "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "join_multiplayer_screen_layout.txt",
+          "name": "join_multiplayer_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 14779,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
+            "MD5": "45c15c75e4e705743d079455ec8bc85e",
+            "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+          }
+        },
+        {
+          "id": "options_screen_layout.txt",
+          "name": "options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 22669,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customization/options_screen_layout.txt",
+            "MD5": "e9650f4b93b94b78bba2ce5bbc219fb8",
+            "path": "config/fancymenu/customization/options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "pause_screen_layout.txt",
+          "name": "pause_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 23762,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customization/pause_screen_layout.txt",
+            "MD5": "a30ddad5f8b5445c727a76a9f9e4dbcb",
+            "path": "config/fancymenu/customization/pause_screen_layout.txt"
           }
         },
         {
@@ -631,9 +1545,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 24905,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "45b86cdb39c5a9c6b28b0e17e3af91da",
+            "size": 31107,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "72dd2325ea43d782d427629f9bf9f7c0",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -643,7 +1557,7 @@
           "type": "File",
           "artifact": {
             "size": 51,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/custom_gui_screens.txt",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/custom_gui_screens.txt",
             "MD5": "106e52948415f0879c53304f50783b28",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
@@ -654,7 +1568,7 @@
           "type": "File",
           "artifact": {
             "size": 197,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
             "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
             "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
@@ -665,7 +1579,7 @@
           "type": "File",
           "artifact": {
             "size": 42,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/legacy_checklist.txt",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/legacy_checklist.txt",
             "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "path": "config/fancymenu/legacy_checklist.txt"
           }
@@ -675,9 +1589,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2040,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/options.txt",
-            "MD5": "dd63cc05e79653d9bbe36dbbd32b4201",
+            "size": 2146,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/options.txt",
+            "MD5": "8af727e4927a292cae849c87cec1e971",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -687,7 +1601,7 @@
           "type": "File",
           "artifact": {
             "size": 4133,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/ui_themes/dark.json",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/ui_themes/dark.json",
             "MD5": "3981f37966b00a80e31aac89169be280",
             "path": "config/fancymenu/ui_themes/dark.json"
           }
@@ -698,7 +1612,7 @@
           "type": "File",
           "artifact": {
             "size": 4135,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/ui_themes/light.json",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/ui_themes/light.json",
             "MD5": "adfba137b3d62c50a5186a4f6523a72a",
             "path": "config/fancymenu/ui_themes/light.json"
           }
@@ -709,9 +1623,31 @@
           "type": "File",
           "artifact": {
             "size": 23,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fancymenu/user_variables.db",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "fastsuite.cfg",
+          "name": "fastsuite.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 742,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fastsuite.cfg",
+            "MD5": "7d7c38f1deb6139437aa3e6e14874f61",
+            "path": "config/fastsuite.cfg"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1399,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/ferritecore-mixin.toml",
+            "MD5": "eba16cc02d779fa059d60d2721a5cd51",
+            "path": "config/ferritecore-mixin.toml"
           }
         },
         {
@@ -720,7 +1656,7 @@
           "type": "File",
           "artifact": {
             "size": 309,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/fml.toml",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/fml.toml",
             "MD5": "5829888c0be966fa241b4e7bbf274dce",
             "path": "config/fml.toml"
           }
@@ -731,7 +1667,7 @@
           "type": "File",
           "artifact": {
             "size": 1107,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-client.toml",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/forge-client.toml",
             "MD5": "556cde26c95de7f37e92f5fdd0e38073",
             "path": "config/forge-client.toml"
           }
@@ -742,7 +1678,7 @@
           "type": "File",
           "artifact": {
             "size": 566,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-common.toml",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/forge-common.toml",
             "MD5": "74719f4a0ed1e053a9ffad049ace6325",
             "path": "config/forge-common.toml"
           }
@@ -753,152 +1689,31 @@
           "type": "File",
           "artifact": {
             "size": 637,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/forge-resource-caching.toml",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/forge-resource-caching.toml",
             "MD5": "10be5650c065e0013517d49833889d94",
             "path": "config/forge-resource-caching.toml"
           }
         },
         {
-          "id": "hide-blocks-1902.json",
-          "name": "hide-blocks-1902.json",
+          "id": "healthindicatortxf.json",
+          "name": "healthindicatortxf.json",
           "type": "File",
           "artifact": {
-            "size": 207,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/hide-blocks-1902.json",
-            "MD5": "96a520226b75288fb7bcacc90ef64579",
-            "path": "config/jade/hide-blocks-1902.json"
+            "size": 1083,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/healthindicatortxf.json",
+            "MD5": "5e3b8b252e47a5cb6fbca9c65b678c14",
+            "path": "config/healthindicatortxf.json"
           }
         },
         {
-          "id": "hide-entities-1902.json",
-          "name": "hide-entities-1902.json",
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
           "type": "File",
           "artifact": {
-            "size": 250,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/hide-entities-1902.json",
-            "MD5": "568d0ed721c9d1f8396c66298bf30c5d",
-            "path": "config/jade/hide-entities-1902.json"
-          }
-        },
-        {
-          "id": "jade.json",
-          "name": "jade.json",
-          "type": "File",
-          "artifact": {
-            "size": 1829,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/jade.json",
-            "MD5": "91b06cb1ff665a3eb40dc6469718f358",
-            "path": "config/jade/jade.json"
-          }
-        },
-        {
-          "id": "plugins.json",
-          "name": "plugins.json",
-          "type": "File",
-          "artifact": {
-            "size": 1519,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/plugins.json",
-            "MD5": "54ba43c1882a820be6801a711eb2dda5",
-            "path": "config/jade/plugins.json"
-          }
-        },
-        {
-          "id": "sort-order.json",
-          "name": "sort-order.json",
-          "type": "File",
-          "artifact": {
-            "size": 1279,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jade/sort-order.json",
-            "MD5": "8e1383a4b9e0d081e7a651b6c9c6dd77",
-            "path": "config/jade/sort-order.json"
-          }
-        },
-        {
-          "id": "blacklist.cfg",
-          "name": "blacklist.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 0,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/blacklist.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": "config/jei/blacklist.cfg"
-          }
-        },
-        {
-          "id": "ingredient-list-mod-sort-order.ini",
-          "name": "ingredient-list-mod-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 74,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/ingredient-list-mod-sort-order.ini",
-            "MD5": "279232599756bcbc3a21f57caab8507b",
-            "path": "config/jei/ingredient-list-mod-sort-order.ini"
-          }
-        },
-        {
-          "id": "ingredient-list-type-sort-order.ini",
-          "name": "ingredient-list-type-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 74,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/ingredient-list-type-sort-order.ini",
-            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
-            "path": "config/jei/ingredient-list-type-sort-order.ini"
-          }
-        },
-        {
-          "id": "jei-client.ini",
-          "name": "jei-client.ini",
-          "type": "File",
-          "artifact": {
-            "size": 4685,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-client.ini",
-            "MD5": "2d4ca700dece77f1dc99081101b40e84",
-            "path": "config/jei/jei-client.ini"
-          }
-        },
-        {
-          "id": "jei-colors.ini",
-          "name": "jei-colors.ini",
-          "type": "File",
-          "artifact": {
-            "size": 1337,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-colors.ini",
-            "MD5": "a23718add9e4884ca9d259aedd73161b",
-            "path": "config/jei/jei-colors.ini"
-          }
-        },
-        {
-          "id": "jei-debug.ini",
-          "name": "jei-debug.ini",
-          "type": "File",
-          "artifact": {
-            "size": 245,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-debug.ini",
-            "MD5": "93e6df80ab4be396571f42debfbd14b7",
-            "path": "config/jei/jei-debug.ini"
-          }
-        },
-        {
-          "id": "jei-mod-id-format.ini",
-          "name": "jei-mod-id-format.ini",
-          "type": "File",
-          "artifact": {
-            "size": 416,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/jei-mod-id-format.ini",
-            "MD5": "d9df39bf869d7344ef78697b986e3b05",
-            "path": "config/jei/jei-mod-id-format.ini"
-          }
-        },
-        {
-          "id": "recipe-category-sort-order.ini",
-          "name": "recipe-category-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 234,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/jei/recipe-category-sort-order.ini",
-            "MD5": "e23ab9b8006daae0e8be5077e7a173b5",
-            "path": "config/jei/recipe-category-sort-order.ini"
+            "size": 1015,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/immediatelyfast.json",
+            "MD5": "691b94d3a245f5ed41b380b98e1388e9",
+            "path": "config/immediatelyfast.json"
           }
         },
         {
@@ -907,7 +1722,7 @@
           "type": "File",
           "artifact": {
             "size": 369,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/de_de.local",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/konkrete/locals/de_de.local",
             "MD5": "3aac3df2519057d2305f894c37771e30",
             "path": "config/konkrete/locals/de_de.local"
           }
@@ -918,7 +1733,7 @@
           "type": "File",
           "artifact": {
             "size": 426,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/en_us.local",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/konkrete/locals/en_us.local",
             "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
             "path": "config/konkrete/locals/en_us.local"
           }
@@ -929,7 +1744,7 @@
           "type": "File",
           "artifact": {
             "size": 313,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/pl_pl.local",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/konkrete/locals/pl_pl.local",
             "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
             "path": "config/konkrete/locals/pl_pl.local"
           }
@@ -940,9 +1755,42 @@
           "type": "File",
           "artifact": {
             "size": 322,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/konkrete/locals/pt_br.local",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/konkrete/locals/pt_br.local",
             "MD5": "2d055da094c115b94f0e4373a2e06ebe",
             "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "letmedespawn.json",
+          "name": "letmedespawn.json",
+          "type": "File",
+          "artifact": {
+            "size": 20,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/letmedespawn.json",
+            "MD5": "7255eb1a685764f2e649043c21242ed3",
+            "path": "config/letmedespawn.json"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5202,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/modernfix-mixins.properties",
+            "MD5": "7c2da98638e9b1808af26f46e951a342",
+            "path": "config/modernfix-mixins.properties"
           }
         },
         {
@@ -951,42 +1799,31 @@
           "type": "File",
           "artifact": {
             "size": 135,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/MouseTweaks.cfg",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/MouseTweaks.cfg",
             "MD5": "ff577ca09e989c07c056c7cdff465be3",
             "path": "config/MouseTweaks.cfg"
           }
         },
         {
-          "id": "naturescompass-client-1.toml.bak",
-          "name": "naturescompass-client-1.toml.bak",
+          "id": "necronomicon.json5",
+          "name": "necronomicon.json5",
           "type": "File",
           "artifact": {
-            "size": 2,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-client-1.toml.bak",
-            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
-            "path": "config/naturescompass-client-1.toml.bak"
+            "size": 266,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/necronomicon.json5",
+            "MD5": "f5d72523e51844112485d6c21b8d51c3",
+            "path": "config/necronomicon.json5"
           }
         },
         {
-          "id": "naturescompass-client.toml",
-          "name": "naturescompass-client.toml",
+          "id": "notenoughanimations.json",
+          "name": "notenoughanimations.json",
           "type": "File",
           "artifact": {
-            "size": 432,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-client.toml",
-            "MD5": "dfe7626832ede6b7b53e6a898b96e5d9",
-            "path": "config/naturescompass-client.toml"
-          }
-        },
-        {
-          "id": "naturescompass-common.toml",
-          "name": "naturescompass-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1142,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/naturescompass-common.toml",
-            "MD5": "d80b82667a1fe6b49421b7a7db5ebd8a",
-            "path": "config/naturescompass-common.toml"
+            "size": 2446,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/notenoughanimations.json",
+            "MD5": "43637ba5fb80810089be314ce052b9bd",
+            "path": "config/notenoughanimations.json"
           }
         },
         {
@@ -995,42 +1832,229 @@
           "type": "File",
           "artifact": {
             "size": 253,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/oculus.properties",
-            "MD5": "198c7ce8e0a42346865b38c018702097",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/oculus.properties",
+            "MD5": "7d78c0d267dd998a91346793a1951e20",
             "path": "config/oculus.properties"
           }
         },
         {
-          "id": "sophisticatedbackpacks-common.toml",
-          "name": "sophisticatedbackpacks-common.toml",
+          "id": "placebo.cfg",
+          "name": "placebo.cfg",
           "type": "File",
           "artifact": {
-            "size": 122,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedbackpacks-common.toml",
-            "MD5": "2c6eb54ca9cb7722ec68ffc73667b88b",
-            "path": "config/sophisticatedbackpacks-common.toml"
+            "size": 326,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/placebo.cfg",
+            "MD5": "fa142105c6a07b4231bf6a9db4355fc0",
+            "path": "config/placebo.cfg"
           }
         },
         {
-          "id": "sophisticatedcore-client.toml",
-          "name": "sophisticatedcore-client.toml",
+          "id": "pop-client.toml",
+          "name": "pop-client.toml",
           "type": "File",
           "artifact": {
-            "size": 351,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedcore-client.toml",
-            "MD5": "154bd9cf14a45c6aa007cb5467f1a454",
-            "path": "config/sophisticatedcore-client.toml"
+            "size": 200,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/pop-client.toml",
+            "MD5": "1af2bc016c5c644c4c37e986ac977683",
+            "path": "config/pop-client.toml"
           }
         },
         {
-          "id": "sophisticatedcore-common.toml",
-          "name": "sophisticatedcore-common.toml",
+          "id": "userconfig.json",
+          "name": "userconfig.json",
           "type": "File",
           "artifact": {
-            "size": 2554,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/config/sophisticatedcore-common.toml",
-            "MD5": "84cceef8694aa18706bd3e0fe8f33370",
-            "path": "config/sophisticatedcore-common.toml"
+            "size": 194,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/presencefootsteps/userconfig.json",
+            "MD5": "93dab3f06078bb5426a2a5834c792a42",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "rubidium_extras.toml",
+          "name": "rubidium_extras.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1911,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/rubidium_extras.toml",
+            "MD5": "3c6fd92a7a965f4542552876add10227",
+            "path": "config/rubidium_extras.toml"
+          }
+        },
+        {
+          "id": "client.json5",
+          "name": "client.json5",
+          "type": "File",
+          "artifact": {
+            "size": 982,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/satisfying_buttons/client.json5",
+            "MD5": "720dc1f416f7bec4ad62ede42a7c80bc",
+            "path": "config/satisfying_buttons/client.json5"
+          }
+        },
+        {
+          "id": "skinlayers.json",
+          "name": "skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/skinlayers.json",
+            "MD5": "e0e0780694ced12ee19fe22cb28b2b1d",
+            "path": "config/skinlayers.json"
+          }
+        },
+        {
+          "id": "allowed_sounds.properties",
+          "name": "allowed_sounds.properties",
+          "type": "File",
+          "artifact": {
+            "size": 55254,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/sound_physics_remastered/allowed_sounds.properties",
+            "MD5": "547ff16116e7ff334fe4bd4d67c783ff",
+            "path": "config/sound_physics_remastered/allowed_sounds.properties"
+          }
+        },
+        {
+          "id": "occlusion.properties",
+          "name": "occlusion.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4053,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/sound_physics_remastered/occlusion.properties",
+            "MD5": "c791f33911612d9a58fe7ffa5686cfa5",
+            "path": "config/sound_physics_remastered/occlusion.properties"
+          }
+        },
+        {
+          "id": "reflectivity.properties",
+          "name": "reflectivity.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3935,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/sound_physics_remastered/reflectivity.properties",
+            "MD5": "c8233745144e01b073b6acb436d7fc20",
+            "path": "config/sound_physics_remastered/reflectivity.properties"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4908,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/sound_physics_remastered/soundphysics.properties",
+            "MD5": "23fe19e40092835b07cedbd8832b401f",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "config.toml",
+          "name": "config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visuality/config.toml",
+            "MD5": "8f11924e2310a8686910ab88d4bb4f57",
+            "path": "config/visuality/config.toml"
+          }
+        },
+        {
+          "id": "block_ambient.json",
+          "name": "block_ambient.json",
+          "type": "File",
+          "artifact": {
+            "size": 1293,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visuality/particle_emitters/block_ambient.json",
+            "MD5": "27eccc07aab02b8e0a9d03e6bf5fe3a8",
+            "path": "config/visuality/particle_emitters/block_ambient.json"
+          }
+        },
+        {
+          "id": "block_step.json",
+          "name": "block_step.json",
+          "type": "File",
+          "artifact": {
+            "size": 219,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visuality/particle_emitters/block_step.json",
+            "MD5": "b1406c4f89b1cb9a76f11e4830689832",
+            "path": "config/visuality/particle_emitters/block_step.json"
+          }
+        },
+        {
+          "id": "entity_armor.json",
+          "name": "entity_armor.json",
+          "type": "File",
+          "artifact": {
+            "size": 737,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visuality/particle_emitters/entity_armor.json",
+            "MD5": "7893debb35fd51fda24aa69d9d9698b5",
+            "path": "config/visuality/particle_emitters/entity_armor.json"
+          }
+        },
+        {
+          "id": "entity_hit.json",
+          "name": "entity_hit.json",
+          "type": "File",
+          "artifact": {
+            "size": 683,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visuality/particle_emitters/entity_hit.json",
+            "MD5": "7fcbbd8bdb1f393ac8399a9be4f1f09f",
+            "path": "config/visuality/particle_emitters/entity_hit.json"
+          }
+        },
+        {
+          "id": "visualworkbench-client.toml",
+          "name": "visualworkbench-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visualworkbench-client.toml",
+            "MD5": "d52a09d3326d13f329853b6173700923",
+            "path": "config/visualworkbench-client.toml"
+          }
+        },
+        {
+          "id": "visual_workbench.json",
+          "name": "visual_workbench.json",
+          "type": "File",
+          "artifact": {
+            "size": 10600,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/visual_workbench.json",
+            "MD5": "5d25cc6d5ba5bae994c6d8dfaa096830",
+            "path": "config/visual_workbench.json"
+          }
+        },
+        {
+          "id": "watut-client.toml",
+          "name": "watut-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 525,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/watut-client.toml",
+            "MD5": "5844210074899b8f72681b1b60ca5f17",
+            "path": "config/watut-client.toml"
+          }
+        },
+        {
+          "id": "watut-common.toml",
+          "name": "watut-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/watut-common.toml",
+            "MD5": "e2a427243d4c0ef74d402a96fbf1e35e",
+            "path": "config/watut-common.toml"
+          }
+        },
+        {
+          "id": "waveycapes.json",
+          "name": "waveycapes.json",
+          "type": "File",
+          "artifact": {
+            "size": 179,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/config/waveycapes.json",
+            "MD5": "a7c8c6467d45988eef46dea486fad847",
+            "path": "config/waveycapes.json"
           }
         },
         {
@@ -1038,43 +2062,10 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5801,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/options.txt",
-            "MD5": "d75c09068726b59e36c199a57fe50098",
+            "size": 4003,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/options.txt",
+            "MD5": "3f1a9d24abeceec74907a417306920b6",
             "path": "options.txt"
-          }
-        },
-        {
-          "id": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
-          "name": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
-          "type": "File",
-          "artifact": {
-            "size": 321871,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/-1.21.2%20Fresh%20Moves%20v3.1%20(With%20Animated%20Eyes).zip",
-            "MD5": "9425263fea042911f13a1482f4c3f436",
-            "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"
-          }
-        },
-        {
-          "id": "ComplementaryReimagined_r5.6.1.zip",
-          "name": "ComplementaryReimagined_r5.6.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 500696,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/ComplementaryReimagined_r5.6.1.zip",
-            "MD5": "04c822b2da584e21745869190ac653e6",
-            "path": "resourcepacks/ComplementaryReimagined_r5.6.1.zip"
-          }
-        },
-        {
-          "id": "ComplementaryUnbound_r5.6.1.zip",
-          "name": "ComplementaryUnbound_r5.6.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 500699,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/ComplementaryUnbound_r5.6.1.zip",
-            "MD5": "3f83f81df2ad4608d830017425b45bac",
-            "path": "resourcepacks/ComplementaryUnbound_r5.6.1.zip"
           }
         },
         {
@@ -1083,7 +2074,7 @@
           "type": "File",
           "artifact": {
             "size": 470506,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/FreshAnimations_v1.8.zip",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/resourcepacks/FreshAnimations_v1.8.zip",
             "MD5": "8c35864cfcaa378b5f110048bbcc8c40",
             "path": "resourcepacks/FreshAnimations_v1.8.zip"
           }
@@ -1094,9 +2085,31 @@
           "type": "File",
           "artifact": {
             "size": 725928,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/resourcepacks/MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/resourcepacks/MandalasGUI+Dakmode_1.21.6_v2.0.zip",
             "MD5": "b2f4bd2158ebabc8164126c58e8d3cc8",
             "path": "resourcepacks/MandalasGUI+Dakmode_1.21.6_v2.0.zip"
+          }
+        },
+        {
+          "id": "resourse caca xd.zip",
+          "name": "resourse caca xd.zip",
+          "type": "File",
+          "artifact": {
+            "size": 46252,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/resourcepacks/resourse%20caca%20xd.zip",
+            "MD5": "db4914f09362e558f5cda1365b6879d1",
+            "path": "resourcepacks/resourse caca xd.zip"
+          }
+        },
+        {
+          "id": "§a§lVocal Villagers §r§71.2.zip",
+          "name": "§a§lVocal Villagers §r§71.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1148286,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/resourcepacks/%C2%A7a%C2%A7lVocal%20Villagers%20%C2%A7r%C2%A771.2.zip",
+            "MD5": "796644c4b3a57d23c933396910adb34c",
+            "path": "resourcepacks/§a§lVocal Villagers §r§71.2.zip"
           }
         },
         {
@@ -1104,9 +2117,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 28896,
-            "url": "https://remarkable-tartufo-3426c0.netlify.app/servers/ModpackPrueba-1.19.2/files/servers.dat",
-            "MD5": "576e7068930ef2d65d2c1752c42e4d90",
+            "size": 1375,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/files/servers.dat",
+            "MD5": "7d8a2e5cffec943be32c6fd446e8757e",
             "path": "servers.dat"
           }
         }
@@ -1115,4 +2128,5 @@
   ]
 
 }
+
 
