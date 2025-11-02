@@ -955,6 +955,16 @@
             "MD5": "54db5a0f749f917d408a108942e9ca66"
           }
         },
+         {
+          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
+          "name": "Plasmo Voice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12184403,
+            "url": "https://verdant-marzipan-26c7f2.netlify.app/servers/HHProyect-1.19.2/forgemods/required/plasmovoice-forge-1.19.2-2.1.6.jar",
+            "MD5": "783280491b59b1cad278224267c51a25"
+          }
+        },
         {
           "id": "com.legacy:pop:1.0.0@jar",
           "name": "Pop!",
@@ -2128,5 +2138,6 @@
   ]
 
 }
+
 
 
