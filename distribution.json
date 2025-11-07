@@ -5025,9 +5025,9 @@
           "type": "File",
           "artifact": {
             "size": 1018200,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFSMP-1.21.1/files/emotes/Yamcha&#039;s%20death%20pose.emotecraft",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFSMP-1.21.1/files/emotes/yamcha_death_pose.emotecraft",
             "MD5": "05d8557e208c179c7c3914ce2259f0ff",
-            "path": "emotes/Yamcha&#039;s death pose.emotecraft"
+            "path": "emotes/yamcha_death_pose.emotecraft"
           }
         },
         {
@@ -6640,3 +6640,4 @@
     }
   ]
 }
+
