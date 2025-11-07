@@ -5020,8 +5020,8 @@
           }
         },
         {
-          "id": "Yamcha&#039;s death pose.emotecraft",
-          "name": "Yamcha&#039;s death pose.emotecraft",
+          "id": "yamcha_death_pose.emotecraft",
+          "name": "yamcha_death_pose.emotecraft",
           "type": "File",
           "artifact": {
             "size": 1018200,
@@ -6640,4 +6640,5 @@
     }
   ]
 }
+
 
