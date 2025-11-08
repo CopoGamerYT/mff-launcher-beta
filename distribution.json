@@ -2140,7 +2140,7 @@
       "name": "MFF-SMP-SV (beta)",
       "description": "This is a beta. it will soon be removed or updated",
       "icon": "https://i.imgur.com/XsMlQPO.png",
-      "version": "1.0.0b",
+      "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -6761,6 +6761,7 @@
     }
   ]
 }
+
 
 
 
