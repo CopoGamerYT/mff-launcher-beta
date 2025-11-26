@@ -6758,9 +6758,242 @@
           }
         }
       ]
+    },
+    {
+      "id": "zestian",
+      "name": "{Zestian} SCG3",
+      "description": "Solo SquidGame xd",
+      "icon": "https://s.namemc.com/i/9c7bb9901155f3d3.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.8",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.1",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944103,
+            "MD5": "eee78db537e19297a4a5966bdad51291",
+            "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/net/fabricmc/fabric-loader/0.18.1/fabric-loader-0.18.1.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.8-fabric-0.18.1",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "e2ef0569e01b7de8120678ae319867b8",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/versions/1.21.8-fabric-0.18.1/1.21.8-fabric-0.18.1.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.8",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 746437,
+                "MD5": "72c38e6c7d436b28b88f9a3a2369619d",
+                "url": "http://va1.holy.gg:26403/launcherfiles/repo/lib/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.7@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 480297,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/entity_model_features_1.21.6-fabric-3.0.7.jar",
+            "MD5": "0c76d325cf9af0206c61217b9a569852"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.6@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 754297,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/entity_texture_features_1.21.6-fabric-7.0.6.jar",
+            "MD5": "e45acc34265c488e6033766a2647e245"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.136.1+1.21.8@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2269700,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/fabric-api-0.136.1+1.21.8.jar",
+            "MD5": "85d76d57a7b5bb7043ea815133d2f6ba"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.7+kotlin.2.2.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479608,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+            "MD5": "89a977d6a4d7a84b8390f9143dd689f7"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.10.6@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 838466,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/notenoughanimations-fabric-1.10.6-mc1.21.8.jar",
+            "MD5": "69a7df489b0f06d90c4e8390c95f148f"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.9.2@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 864946,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/skinlayers3d-fabric-1.9.2-mc1.21.8.jar",
+            "MD5": "1baac34537acf3980f6bcc5351d4f528"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.8@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1621285,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/sodium-fabric-0.7.3+mc1.21.8.jar",
+            "MD5": "2e38db8afdf3a8d319658780b7f45501"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.8-2.6.6@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5461281,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/voicechat-fabric-1.21.8-2.6.6.jar",
+            "MD5": "68d402f59249b0fe1f253648312502b7"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.7.1+1.21.6-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1122817,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/yet_another_config_lib_v3-3.7.1+1.21.6-fabric.jar",
+            "MD5": "c69036880ff3184c5ba37d58c75d86aa"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.6+1.21.6@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1865830,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/fabricmods/required/Zoomify-2.14.6+1.21.6.jar",
+            "MD5": "f3df93a98949c77ac55824fb20c7e799"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4337,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/files/options.txt",
+            "MD5": "36dc5bb10a04b5be3da97d11782b8d77",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "DetailedAnimationsReworked - V1.15 PATCH.zip",
+          "name": "DetailedAnimationsReworked - V1.15 PATCH.zip",
+          "type": "File",
+          "artifact": {
+            "size": 115818,
+            "url": "http://va1.holy.gg:26403/launcherfiles/servers/zestian-1.21.8/files/resourcepacks/DetailedAnimationsReworked%20-%20V1.15%20PATCH.zip",
+            "MD5": "f012d283d9ef99290d23ff219585036a",
+            "path": "resourcepacks/DetailedAnimationsReworked - V1.15 PATCH.zip"
+          }
+        }
+      ]
     }
   ]
 }
+
 
 
 
