@@ -1059,16 +1059,6 @@
           }
         },
         {
-          "id": "fuzs.visualworkbench:visualworkbench:4.2.4@jar",
-          "name": "Visual Workbench",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 82918,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/HHProyect-1.19.2/forgemods/required/VisualWorkbench-v4.2.4-1.19.2-Forge.jar",
-            "MD5": "d23680b419036187552f8d5a8a6d3312"
-          }
-        },
-        {
           "id": "com.corosus.watut.loader:watut:1.19.2-1.0.14@jar",
           "name": "What Are They Up To",
           "type": "ForgeMod",
@@ -2010,17 +2000,6 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/HHProyect-1.19.2/files/config/visuality/particle_emitters/entity_hit.json",
             "MD5": "7fcbbd8bdb1f393ac8399a9be4f1f09f",
             "path": "config/visuality/particle_emitters/entity_hit.json"
-          }
-        },
-        {
-          "id": "visualworkbench-client.toml",
-          "name": "visualworkbench-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 215,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/HHProyect-1.19.2/files/config/visualworkbench-client.toml",
-            "MD5": "d52a09d3326d13f329853b6173700923",
-            "path": "config/visualworkbench-client.toml"
           }
         },
         {
@@ -5299,28 +5278,6 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/visuality.json",
             "MD5": "f3ab874017001fb36fcc1d7e0cd99aaf",
             "path": "config/visuality.json"
-          }
-        },
-        {
-          "id": "visualworkbench-client.toml",
-          "name": "visualworkbench-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 459,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/visualworkbench-client.toml",
-            "MD5": "b87625d3be6d00506768fae45cd49216",
-            "path": "config/visualworkbench-client.toml"
-          }
-        },
-        {
-          "id": "visualworkbench-common.toml",
-          "name": "visualworkbench-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 350,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/visualworkbench-common.toml",
-            "MD5": "4eba0079532da70038e460de41c9398d",
-            "path": "config/visualworkbench-common.toml"
           }
         },
         {
@@ -8635,17 +8592,6 @@
           }
         },
         {
-          "id": "VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
-          "name": "VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
-          "type": "File",
-          "artifact": {
-            "size": 80510,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
-            "MD5": "78885f0d34d0aa7c5389065814028a06",
-            "path": "mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar"
-          }
-        },
-        {
           "id": "wakes-0.4.1+1.21.1.jar",
           "name": "wakes-0.4.1+1.21.1.jar",
           "type": "File",
@@ -8762,7 +8708,6 @@
           "artifact": {
             "size": 9710,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/options.txt",
-            "MD5": "3f58fadcb481d0fc57f461b2250aa457",
             "path": "options.txt"
           }
         },
@@ -9100,6 +9045,7 @@
     }
   ]
 }
+
 
 
 
