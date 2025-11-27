@@ -2136,6 +2136,15 @@
       ]
     },
     {
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
       "id": "MFFIsland-1.21.1",
       "name": "MFFIsland",
       "description": "Solo un SMP entre todos jsjs",
@@ -2349,7 +2358,7 @@
           "artifact": {
             "size": 2090,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/asyncparticles/asyncparticles-mixin.properties",
-            "MD5": "b8150c712af361adf3ed8e559526b8d8",
+            "MD5": "37c7fb3d040ef0517e27c228a584c444",
             "path": "config/asyncparticles/asyncparticles-mixin.properties"
           }
         },
@@ -3152,7 +3161,7 @@
           "artifact": {
             "size": 290,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fabric/indigo-renderer.properties",
-            "MD5": "2f093040254690bf58cdb9f98ac32934",
+            "MD5": "685a65c853a358b2cf2c0b2ec06bbe01",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -3289,13 +3298,24 @@
           }
         },
         {
+          "id": "xd.png",
+          "name": "xd.png",
+          "type": "File",
+          "artifact": {
+            "size": 1478776,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/assets/xd.png",
+            "MD5": "aaa48dcf676db905fc0b43136149ad8d",
+            "path": "config/fancymenu/assets/xd.png"
+          }
+        },
+        {
           "id": "customizablemenus.txt",
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
             "size": 215,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "c97706c05e43be3d64144f2e6943037c",
+            "MD5": "11f57534cd5b44f705a7b32c4ed71de9",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -3315,9 +3335,9 @@
           "name": "join_multiplayer_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 16168,
+            "size": 16505,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
-            "MD5": "1bb872d28ef000cf6e4fd71ea9970851",
+            "MD5": "82a89731e1a678db4672b01c4af1559c",
             "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
           }
         },
@@ -3348,9 +3368,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 35621,
+            "size": 33180,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "855bd4eb585043a490ad4d1f7ee995be",
+            "MD5": "a57f0312272c84ba78f777f8f92ae570",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -3680,7 +3700,7 @@
           "artifact": {
             "size": 307,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/iris.properties",
-            "MD5": "fee7c409f58a3377a168b878fa982f6a",
+            "MD5": "31a75a28ed306e6dc5f7898dabd5f35c",
             "path": "config/iris.properties"
           }
         },
@@ -3748,6 +3768,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/jade/sort-order.json",
             "MD5": "7f066d1a5a22421189c2daf8250eb675",
             "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "usernamecache.json",
+          "name": "usernamecache.json",
+          "type": "File",
+          "artifact": {
+            "size": 678,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/jade/usernamecache.json",
+            "MD5": "0671c3fd62c16915cdf8d0987facd666",
+            "path": "config/jade/usernamecache.json"
           }
         },
         {
@@ -8987,6 +9018,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/servers.dat",
+            "MD5": "69f768e8410f6f05d7f0ddb1cd0819e9",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
           "name": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
           "type": "File",
@@ -9067,6 +9109,9 @@
     }
   ]
 }
+  ]
+}
+
 
 
 
