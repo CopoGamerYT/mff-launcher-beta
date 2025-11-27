@@ -2136,15 +2136,6 @@
       ]
     },
     {
-  "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
-  "servers": [
-    {
       "id": "MFFIsland-1.21.1",
       "name": "MFFIsland",
       "description": "Solo un SMP entre todos jsjs",
@@ -9111,6 +9102,7 @@
 }
   ]
 }
+
 
 
 
