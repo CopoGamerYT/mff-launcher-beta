@@ -8850,7 +8850,6 @@
           "artifact": {
             "size": 9710,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/options.txt",
-            "MD5": "3f58fadcb481d0fc57f461b2250aa457",
             "path": "options.txt"
           }
         },
@@ -9188,6 +9187,7 @@
     }
   ]
 }
+
 
 
 
