@@ -2130,7 +2130,7 @@
       "mainServer": false,
       "autoconnect": false,
       "modules": [
-        {
+          {
           "id": "net.fabricmc:fabric-loader:0.18.1",
           "name": "Fabric (fabric-loader)",
           "type": "Fabric",
@@ -2691,6 +2691,7 @@
           "artifact": {
             "size": 2465,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/drippyloadingscreen/options.txt",
+            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
             "path": "config/drippyloadingscreen/options.txt"
           }
         },
@@ -3267,6 +3268,17 @@
           }
         },
         {
+          "id": "textoslol.txt",
+          "name": "textoslol.txt",
+          "type": "File",
+          "artifact": {
+            "size": 530,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/assets/textoslol.txt",
+            "MD5": "6aae17b2c3082f35ca62f5261429ffbb",
+            "path": "config/fancymenu/assets/textoslol.txt"
+          }
+        },
+        {
           "id": "wallpaper.png",
           "name": "wallpaper.png",
           "type": "File",
@@ -3293,10 +3305,21 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 244,
+            "size": 273,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "45eaa2e95942e7a256d60c0e8411c4e2",
+            "MD5": "38b2a0923e78ac59cc62acbcf3836b18",
             "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "connect_screen_layout.txt",
+          "name": "connect_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7451,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customization/connect_screen_layout.txt",
+            "MD5": "f5db042b49b8498356f978853534edbd",
+            "path": "config/fancymenu/customization/connect_screen_layout.txt"
           }
         },
         {
@@ -8844,6 +8867,17 @@
           }
         },
         {
+          "id": "youre-in-grave-danger-fabric-2.4.18.jar",
+          "name": "youre-in-grave-danger-fabric-2.4.18.jar",
+          "type": "File",
+          "artifact": {
+            "size": 831659,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/youre-in-grave-danger-fabric-2.4.18.jar",
+            "MD5": "899e56f77ea10c3918032d50d0f39eec",
+            "path": "mods/youre-in-grave-danger-fabric-2.4.18.jar"
+          }
+        },
+        {
           "id": "YungsApi-1.21.1-Fabric-5.1.6.jar",
           "name": "YungsApi-1.21.1-Fabric-5.1.6.jar",
           "type": "File",
@@ -8870,8 +8904,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 9710,
+            "size": 11422,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/options.txt",
+            "MD5": "2e1c9936e05dcf912b0bb9e0a5945bc8",
             "path": "options.txt"
           }
         },
@@ -9220,7 +9255,6 @@
     }
   ]
 }
-
 
 
 
