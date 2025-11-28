@@ -6919,6 +6919,17 @@
           }
         },
         {
+          "id": "jei-1.21.1-fabric-19.21.2.313.jar",
+          "name": "jei-1.21.1-fabric-19.21.2.313.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1481367,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/jei-1.21.1-fabric-19.21.2.313.jar",
+            "MD5": "442a2edae5e26973938265bd0d6e85b8",
+            "path": "mods/jei-1.21.1-fabric-19.21.2.313.jar"
+          }
+        },
+        {
           "id": "jumpoverfences-fabric-1.21.1-1.6.1.jar",
           "name": "jumpoverfences-fabric-1.21.1-1.6.1.jar",
           "type": "File",
@@ -9198,6 +9209,7 @@
     }
   ]
 }
+
 
 
 
