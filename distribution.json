@@ -1266,14 +1266,14 @@
           }
         },
         {
-          "id": "options.txt",
+         "id": "options.txt",
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 162,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/HHProyect-1.19.2/files/config/drippyloadingscreen/options.txt",
-            "MD5": "422b46098fc009b4e6a0b1b16c61e17c",
-            "path": "config/drippyloadingscreen/options.txt"
+            "size": 11422,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
           }
         },
         {
@@ -8997,6 +8997,17 @@
           }
         },
         {
+          "id": "Ejemplo pitero xd.zip",
+          "name": "Ejemplo pitero xd.zip",
+          "type": "File",
+          "artifact": {
+            "size": 33258,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/resourcepacks/Ejemplo%20pitero%20xd.zip",
+            "MD5": "adad645b168cb32021f9bf9eca100a8b",
+            "path": "resourcepacks/Ejemplo pitero xd.zip"
+          }
+        },
+        {
           "id": "enchant icons 1.21 v1.3.zip",
           "name": "enchant icons 1.21 v1.3.zip",
           "type": "File",
@@ -9209,6 +9220,7 @@
     }
   ]
 }
+
 
 
 
