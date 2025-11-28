@@ -6204,6 +6204,17 @@
           }
         },
         {
+          "id": "cupboard-fabric-1.21-2.9.jar",
+          "name": "cupboard-fabric-1.21-2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23781,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/cupboard-fabric-1.21-2.9.jar",
+            "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb",
+            "path": "mods/cupboard-fabric-1.21-2.9.jar"
+          }
+        },
+        {
           "id": "customizableelytra-fabric-2.2.8+1.21.jar",
           "name": "customizableelytra-fabric-2.2.8+1.21.jar",
           "type": "File",
@@ -9187,6 +9198,7 @@
     }
   ]
 }
+
 
 
 
