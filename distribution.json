@@ -2119,7 +2119,7 @@
       "name": "MFFIsland",
       "description": "No pudimos ponerle la isla e***** si no si xd ",
       "icon": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/MFFIsland-1.21.1.png",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -9254,6 +9254,7 @@
     }
   ]
 }
+
 
 
 
