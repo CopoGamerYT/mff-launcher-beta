@@ -2117,7 +2117,7 @@
     {
       "id": "MFFIsland-1.21.1",
       "name": "MFFIsland",
-      "description": "Solo un SMP entre todos jsjs",
+      "description": "No pudimos ponerle la isla e***** si no si xd ",
       "icon": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/MFFIsland-1.21.1.png",
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -2691,7 +2691,6 @@
           "artifact": {
             "size": 2465,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/drippyloadingscreen/options.txt",
-            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
             "path": "config/drippyloadingscreen/options.txt"
           }
         },
@@ -3235,6 +3234,17 @@
           }
         },
         {
+          "id": "fondo.mp4",
+          "name": "fondo.mp4",
+          "type": "File",
+          "artifact": {
+            "size": 2918157,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/assets/fondo.mp4",
+            "MD5": "9680c0ff77a97fe665eb931da0d1de0d",
+            "path": "config/fancymenu/assets/fondo.mp4"
+          }
+        },
+        {
           "id": "pn.png",
           "name": "pn.png",
           "type": "File",
@@ -3283,9 +3293,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 215,
+            "size": 244,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "11f57534cd5b44f705a7b32c4ed71de9",
+            "MD5": "45eaa2e95942e7a256d60c0e8411c4e2",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -3338,9 +3348,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 33180,
+            "size": 33148,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "a57f0312272c84ba78f777f8f92ae570",
+            "MD5": "1cc76be140ed7f79ae2b1117c6649b39",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -3419,6 +3429,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "video_element_controller_metas.json",
+          "name": "video_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 130,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/fancymenu/video_element_controller_metas.json",
+            "MD5": "410a8ee27f11ba51b17368f0975f7e54",
+            "path": "config/fancymenu/video_element_controller_metas.json"
           }
         },
         {
@@ -5281,6 +5302,28 @@
           }
         },
         {
+          "id": "visualworkbench-client.toml",
+          "name": "visualworkbench-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 459,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/visualworkbench-client.toml",
+            "MD5": "b87625d3be6d00506768fae45cd49216",
+            "path": "config/visualworkbench-client.toml"
+          }
+        },
+        {
+          "id": "visualworkbench-common.toml",
+          "name": "visualworkbench-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 350,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/config/visualworkbench-common.toml",
+            "MD5": "4eba0079532da70038e460de41c9398d",
+            "path": "config/visualworkbench-common.toml"
+          }
+        },
+        {
           "id": "wakes.json",
           "name": "wakes.json",
           "type": "File",
@@ -6249,6 +6292,17 @@
           }
         },
         {
+          "id": "dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
+          "name": "dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 191151,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
+            "MD5": "c2ef97d432f7a9291c7ebd47f704cc60",
+            "path": "mods/dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar"
+          }
+        },
+        {
           "id": "EasyAnvils-v21.1.0-1.21.1-Fabric.jar",
           "name": "EasyAnvils-v21.1.0-1.21.1-Fabric.jar",
           "type": "File",
@@ -6312,6 +6366,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/eg_particle_interactions-0.4.1-fabric-mc1.21.1.jar",
             "MD5": "6a7463132ad4a8b82e3a094d71cfbed8",
             "path": "mods/eg_particle_interactions-0.4.1-fabric-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "elytraslot-fabric-9.0.1+1.21.1.jar",
+          "name": "elytraslot-fabric-9.0.1+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63519,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/elytraslot-fabric-9.0.1+1.21.1.jar",
+            "MD5": "530a4b4a6e780a234bec47f823df3c08",
+            "path": "mods/elytraslot-fabric-9.0.1+1.21.1.jar"
           }
         },
         {
@@ -6601,6 +6666,17 @@
           }
         },
         {
+          "id": "globalxp-fabric-1.21.1-1.12.2.jar",
+          "name": "globalxp-fabric-1.21.1-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 126844,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/globalxp-fabric-1.21.1-1.12.2.jar",
+            "MD5": "b72b94f88d4ef103bf5da006c759203f",
+            "path": "mods/globalxp-fabric-1.21.1-1.12.2.jar"
+          }
+        },
+        {
           "id": "glowing-torchflower-1.20.3-1.3.0.jar",
           "name": "glowing-torchflower-1.20.3-1.3.0.jar",
           "type": "File",
@@ -6686,6 +6762,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/ImmediatelyFast-Fabric-1.6.7+1.21.1.jar",
             "MD5": "6c725b062012c2ea67d7ddb9ef531d1c",
             "path": "mods/ImmediatelyFast-Fabric-1.6.7+1.21.1.jar"
+          }
+        },
+        {
+          "id": "immersivearmorhud-fabric-1.0.1-1.21.1.jar",
+          "name": "immersivearmorhud-fabric-1.0.1-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 999331,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/immersivearmorhud-fabric-1.0.1-1.21.1.jar",
+            "MD5": "2b54aace09b6f713393a65870490f860",
+            "path": "mods/immersivearmorhud-fabric-1.0.1-1.21.1.jar"
           }
         },
         {
@@ -6785,6 +6872,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/ItemBorders-1.21-fabric-1.2.5.jar",
             "MD5": "a88a7933fc3748e57b2c0dfcbd2cce62",
             "path": "mods/ItemBorders-1.21-fabric-1.2.5.jar"
+          }
+        },
+        {
+          "id": "ItemPhysicLite_FABRIC_v1.6.8_mc1.21.1.jar",
+          "name": "ItemPhysicLite_FABRIC_v1.6.8_mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21955,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/ItemPhysicLite_FABRIC_v1.6.8_mc1.21.1.jar",
+            "MD5": "24aea3523ce7868a250c1d7ce5223a54",
+            "path": "mods/ItemPhysicLite_FABRIC_v1.6.8_mc1.21.1.jar"
           }
         },
         {
@@ -8108,6 +8206,17 @@
           }
         },
         {
+          "id": "Pehkui-3.8.3+1.14.4-1.21.jar",
+          "name": "Pehkui-3.8.3+1.14.4-1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 555041,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/Pehkui-3.8.3+1.14.4-1.21.jar",
+            "MD5": "c28dbac324e13836c2c15e47bfcd9e45",
+            "path": "mods/Pehkui-3.8.3+1.14.4-1.21.jar"
+          }
+        },
+        {
           "id": "Perception-FABRIC-0.1.6+1.21.1.jar",
           "name": "Perception-FABRIC-0.1.6+1.21.1.jar",
           "type": "File",
@@ -8281,6 +8390,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/skinlayers3d-fabric-1.9.2-mc1.21.1.jar",
             "MD5": "07fb32e24641af4f4c993381563f9fb5",
             "path": "mods/skinlayers3d-fabric-1.9.2-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "smoothchunk-fabric-1.21-4.1.jar",
+          "name": "smoothchunk-fabric-1.21-4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13769,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/smoothchunk-fabric-1.21-4.1.jar",
+            "MD5": "c1a0083d7b2675b92c49ee009b3c36a6",
+            "path": "mods/smoothchunk-fabric-1.21-4.1.jar"
           }
         },
         {
@@ -8526,6 +8646,17 @@
           }
         },
         {
+          "id": "trinkets-3.10.0.jar",
+          "name": "trinkets-3.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 272944,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/trinkets-3.10.0.jar",
+            "MD5": "4a42e243d6d5c25dea83be3ddc0b28b1",
+            "path": "mods/trinkets-3.10.0.jar"
+          }
+        },
+        {
           "id": "txnilib-fabric-1.0.24-1.21.1.jar",
           "name": "txnilib-fabric-1.0.24-1.21.1.jar",
           "type": "File",
@@ -8589,6 +8720,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/visuality-0.7.7+1.21.jar",
             "MD5": "f6afa7bac94101addeb4b2ee34eb828f",
             "path": "mods/visuality-0.7.7+1.21.jar"
+          }
+        },
+        {
+          "id": "VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
+          "name": "VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 80510,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar",
+            "MD5": "78885f0d34d0aa7c5389065814028a06",
+            "path": "mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar"
           }
         },
         {
@@ -8708,6 +8850,7 @@
           "artifact": {
             "size": 9710,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/MFFIsland-1.21.1/files/options.txt",
+            "MD5": "3f58fadcb481d0fc57f461b2250aa457",
             "path": "options.txt"
           }
         },
@@ -9045,6 +9188,7 @@
     }
   ]
 }
+
 
 
 
