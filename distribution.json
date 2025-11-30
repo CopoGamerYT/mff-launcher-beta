@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "mffislandv2-1.20.1",
-      "name": "mffislandv2 (Minecraft 1.20.1)",
-      "description": "mffislandv2 Running Minecraft 1.20.1 (Forge v47.4.10)",
+      "name": "MFF Island V2",
+      "description": "El primero que se queje de este pedo es balda🗣️",
       "icon": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/mffislandv2-1.20.1/mffislandv2-1.20.1.png",
       "version": "",
       "address": "localhost:25565",
@@ -4814,3 +4814,4 @@
     }
   ]
 }
+
