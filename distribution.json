@@ -18,7 +18,8 @@
      
       "javaOptions": {
         "suggestedMajor": 21,
-        "supported": [17, 18, 19, 20, 21, 22]
+        "supported": [21],
+        "distribution": "zulu"
       },
       
       "discord": {
@@ -3895,6 +3896,7 @@
     }
   ]
 }
+
 
 
 
