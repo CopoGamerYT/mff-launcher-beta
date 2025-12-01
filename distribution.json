@@ -15,10 +15,6 @@
       "version": "1.0.0",
       "address": "mf-03.holynodes.com:25505",
       "minecraftVersion": "1.20.1",
-      "javaOptions": {
-      "suggestedMajor": 21,
-      "supported": [21]
-      },
       "discord": {
         "shortId": "sigmaisland",
         "largeImageText": "Jugando a Sigma Launcher [1.20.1]",
@@ -3893,6 +3889,7 @@
     }
   ]
 }
+
 
 
 
