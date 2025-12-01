@@ -122,7 +122,6 @@
           "artifact": {
             "size": 2465,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/drippyloadingscreen/options.txt",
-            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
             "path": "config/drippyloadingscreen/options.txt"
           }
         },
@@ -353,7 +352,6 @@
           "artifact": {
             "size": 2246,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "5e74017fd9517d2fe6ac0a26a7d22402",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -3686,7 +3684,6 @@
           "artifact": {
             "size": 10040,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/options.txt",
-            "MD5": "67180b4af7b905500bc86a3af92539e7",
             "path": "options.txt"
           }
         },
@@ -3914,5 +3911,6 @@
     }
   ]
 }
+
 
 
