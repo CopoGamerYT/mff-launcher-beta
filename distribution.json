@@ -18,8 +18,7 @@
      
       "javaOptions": {
         "suggestedMajor": 21,
-        "supported": [21],
-        "distribution": "Temurin"
+        "supported": [21]
       },
       
       "discord": {
