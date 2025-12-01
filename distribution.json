@@ -15,6 +15,13 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
+     
+      "javaOptions": {
+        "suggestedMajor": 21,
+        "supported": [21],
+        "distribution": "Temurin"
+      },
+      
       "discord": {
         "shortId": "sigmaisland",
         "largeImageText": "Jugando a Sigma Launcher [1.20.1]",
@@ -1695,16 +1702,6 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/InventoryParticles-1.2.1+1.20.1.jar",
             "MD5": "22c37574f58519367f816b1c7945f9bf",
             "path": "mods/InventoryParticles-1.2.1+1.20.1.jar"
-          }
-        },
-        {
-          "id": "InvMove-0.9.1+1.20.1-Fabric.jar",
-          "name": "InvMove-0.9.1+1.20.1-Fabric.jar",
-          "type": "File",
-          "artifact": {
-            "size": 126717,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/InvMove-0.9.1+1.20.1-Fabric.jar",
-            "path": "mods/InvMove-0.9.1+1.20.1-Fabric.jar"
           }
         },
         {
@@ -3899,6 +3896,7 @@
     }
   ]
 }
+
 
 
 
