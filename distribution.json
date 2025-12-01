@@ -1704,7 +1704,6 @@
           "artifact": {
             "size": 126717,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/InvMove-0.9.1+1.20.1-Fabric.jar",
-            "MD5": "a0e8f21d54457d4d32f5d04f83daa0d0",
             "path": "mods/InvMove-0.9.1+1.20.1-Fabric.jar"
           }
         },
@@ -3900,6 +3899,7 @@
     }
   ]
 }
+
 
 
 
