@@ -1522,17 +1522,6 @@
           }
         },
         {
-          "id": "gh-origins-v2.0.0.jar",
-          "name": "gh-origins-v2.0.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 228871,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/gh-origins-v2.0.0.jar",
-            "MD5": "f1fe3e0417e79b08c50a46d6c23f9b75",
-            "path": "mods/gh-origins-v2.0.0.jar"
-          }
-        },
-        {
           "id": "GlitchCore-fabric-1.20.1-0.0.1.1.jar",
           "name": "GlitchCore-fabric-1.20.1-0.0.1.1.jar",
           "type": "File",
@@ -3911,6 +3900,7 @@
     }
   ]
 }
+
 
 
 
