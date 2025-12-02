@@ -394,9 +394,9 @@
           "type": "File",
           "artifact": {
             "size": 1274,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/fossil.json",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/.json",
             "MD5": "2229b4871178cd582c2ed0b68d802201",
-            "path": "config/fossil.json"
+            "path": "config/.json"
           }
         },
         {
@@ -1497,6 +1497,39 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/fossil-fabric-1.20.1-9.3.0.2.jar",
             "MD5": "35cca330ed5f6d168a5a73ccc593efc3",
             "path": "mods/fossil-fabric-1.20.1-9.3.0.2.jar"
+          }
+        },
+        {
+          "id": "ftb-library-fabric-2001.2.10.jar",
+          "name": "ftb-library-fabric-2001.2.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 781194,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/ftb-library-fabric-2001.2.10.jar",
+            "MD5": "30a70e84c4a6b10962c741c66bd02ef7",
+            "path": "mods/ftb-library-fabric-2001.2.10.jar"
+        }
+        },
+        {
+          "id": "ftb-quests-fabric-2001.4.17.jar",
+          "name": "ftb-quests-fabric-2001.4.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1235809,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/ftb-quests-fabric-2001.4.17.jar",
+            "MD5": "369f686659696882c50bb5860644a51d",
+            "path": "mods/ftb-quests-fabric-2001.4.17.jar"
+          }
+        },
+        {
+          "id": "ftb-teams-fabric-2001.3.1.jar",
+          "name": "ftb-teams-fabric-2001.3.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 244872,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/ftb-teams-fabric-2001.3.1.jar",
+            "MD5": "0b314b0709345ccefc2a1e9ea62b1acb",
+            "path": "mods/ftb-teams-fabric-2001.3.1.jar"
           }
         },
         {
@@ -3889,6 +3922,7 @@
     }
   ]
 }
+
 
 
 
