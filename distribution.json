@@ -122,6 +122,7 @@
           "artifact": {
             "size": 2465,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/drippyloadingscreen/options.txt",
+            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
             "path": "config/drippyloadingscreen/options.txt"
           }
         },
@@ -352,6 +353,7 @@
           "artifact": {
             "size": 2246,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "5e74017fd9517d2fe6ac0a26a7d22402",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -394,9 +396,9 @@
           "type": "File",
           "artifact": {
             "size": 1274,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/.json",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/fossil.json",
             "MD5": "2229b4871178cd582c2ed0b68d802201",
-            "path": "config/.json"
+            "path": "config/fossil.json"
           }
         },
         {
@@ -426,10 +428,21 @@
           "name": "trinkets.json",
           "type": "File",
           "artifact": {
-            "size": 1076,
+            "size": 0,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/InventoryHUD/trinkets.json",
-            "MD5": "2fb012c9c5f4b67b097d3a73c0b5592b",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "config/InventoryHUD/trinkets.json"
+          }
+        },
+        {
+          "id": "inventoryhud.json",
+          "name": "inventoryhud.json",
+          "type": "File",
+          "artifact": {
+            "size": 1691,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/inventoryhud.json",
+            "MD5": "e66062221f7ca966ac733003352c0df8",
+            "path": "config/inventoryhud.json"
           }
         },
         {
@@ -760,17 +773,6 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/accessories-fabric-1.0.0-beta.48+1.20.1.jar",
             "MD5": "221b4a22e0d96453c949bcd7d913ad62",
             "path": "mods/accessories-fabric-1.0.0-beta.48+1.20.1.jar"
-          }
-        },
-        {
-          "id": "access_denied-6.1.0.jar",
-          "name": "access_denied-6.1.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 40808,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/access_denied-6.1.0.jar",
-            "MD5": "43283b009a27c38a373f0a4abe1cdf4b",
-            "path": "mods/access_denied-6.1.0.jar"
           }
         },
         {
@@ -1508,7 +1510,7 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/ftb-library-fabric-2001.2.10.jar",
             "MD5": "30a70e84c4a6b10962c741c66bd02ef7",
             "path": "mods/ftb-library-fabric-2001.2.10.jar"
-        }
+          }
         },
         {
           "id": "ftb-quests-fabric-2001.4.17.jar",
@@ -1552,6 +1554,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/geckolib-fabric-1.20.1-4.8.2.jar",
             "MD5": "09b57b83ce1a09c3576031d7e8bd52c9",
             "path": "mods/geckolib-fabric-1.20.1-4.8.2.jar"
+          }
+        },
+        {
+          "id": "gh-origins-v2.0.0.jar",
+          "name": "gh-origins-v2.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 228871,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/gh-origins-v2.0.0.jar",
+            "MD5": "f1fe3e0417e79b08c50a46d6c23f9b75",
+            "path": "mods/gh-origins-v2.0.0.jar"
           }
         },
         {
@@ -1922,9 +1935,9 @@
           "name": "LocalPrefs.json",
           "type": "File",
           "artifact": {
-            "size": 743,
+            "size": 0,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/mcef-cache/LocalPrefs.json",
-            "MD5": "39cd7d30883cbe333e2d04ffd2a0ebe6",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "mods/mcef-cache/LocalPrefs.json"
           }
         },
@@ -1944,9 +1957,9 @@
           "name": "LOG",
           "type": "File",
           "artifact": {
-            "size": 328,
+            "size": 0,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/mcef-cache/LOG",
-            "MD5": "e5446db3f6e800e675cfd28d8a235e07",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "mods/mcef-cache/LOG"
           }
         },
@@ -1955,9 +1968,9 @@
           "name": "LOG.old",
           "type": "File",
           "artifact": {
-            "size": 328,
+            "size": 0,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/mcef-cache/LOG.old",
-            "MD5": "d8f1912be9f7ab656a9999b27c93a915",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "mods/mcef-cache/LOG.old"
           }
         },
@@ -3695,6 +3708,7 @@
           "artifact": {
             "size": 10040,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/options.txt",
+            "MD5": "67180b4af7b905500bc86a3af92539e7",
             "path": "options.txt"
           }
         },
@@ -3922,18 +3936,3 @@
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
