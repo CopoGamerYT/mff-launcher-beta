@@ -1698,17 +1698,6 @@
           }
         },
         {
-          "id": "inventoryhud.fabric.1.20.1-3.4.26.jar",
-          "name": "inventoryhud.fabric.1.20.1-3.4.26.jar",
-          "type": "File",
-          "artifact": {
-            "size": 237573,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/mods/inventoryhud.fabric.1.20.1-3.4.26.jar",
-            "MD5": "d5e3049c04f617683a5e0013902e2d8b",
-            "path": "mods/inventoryhud.fabric.1.20.1-3.4.26.jar"
-          }
-        },
-        {
           "id": "InventoryParticles-1.2.1+1.20.1.jar",
           "name": "InventoryParticles-1.2.1+1.20.1.jar",
           "type": "File",
@@ -3911,5 +3900,6 @@
     }
   ]
 }
+
 
 
