@@ -422,28 +422,6 @@
           }
         },
         {
-          "id": "trinkets.json",
-          "name": "trinkets.json",
-          "type": "File",
-          "artifact": {
-            "size": 0,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/InventoryHUD/trinkets.json",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": "config/InventoryHUD/trinkets.json"
-          }
-        },
-        {
-          "id": "inventoryhud.json",
-          "name": "inventoryhud.json",
-          "type": "File",
-          "artifact": {
-            "size": 1691,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/sigmaisland-1.20.1/files/config/inventoryhud.json",
-            "MD5": "e66062221f7ca966ac733003352c0df8",
-            "path": "config/inventoryhud.json"
-          }
-        },
-        {
           "id": "xaerominimap-common.txt",
           "name": "xaerominimap-common.txt",
           "type": "File",
@@ -3933,4 +3911,5 @@
     }
   ]
 }
+
 
